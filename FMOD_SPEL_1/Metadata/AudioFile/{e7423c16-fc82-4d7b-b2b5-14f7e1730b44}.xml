@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{e7423c16-fc82-4d7b-b2b5-14f7e1730b44}">
 		<property name="assetPath">
-			<value>Footsteps, Grass, Male, Sneakers, Normal Tempo SND4066.wav</value>
+			<value>Character SFX/Big Robot/Movement/Footsteps, Grass, Male, Sneakers, Normal Tempo SND4066.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

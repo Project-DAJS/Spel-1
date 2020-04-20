@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{ad895c78-bdbb-4a28-906d-52ec90620660}">
 		<property name="assetPath">
-			<value>Creature, Robot, Sci-Fi, Movement, Single 5 SND32414.wav</value>
+			<value>Character SFX/Big Robot/Movement/Creature, Robot, Sci-Fi, Movement, Single 5 SND32414.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

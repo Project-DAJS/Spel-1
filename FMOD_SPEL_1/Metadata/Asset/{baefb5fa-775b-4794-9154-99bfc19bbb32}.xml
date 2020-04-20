@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="DataFile" id="{d7256ecd-c2f3-478a-8c39-a661bb25866d}">
+	<object class="EncodableAsset" id="{baefb5fa-775b-4794-9154-99bfc19bbb32}">
 		<property name="assetPath">
-			<value>Character SFX/Big Robot/Movement/audiogaming_audiomotors_demo_engine.agp</value>
+			<value>Character SFX/Big Robot/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{901c69ff-b09e-4fb8-b7d9-d97094e64553}</destination>
