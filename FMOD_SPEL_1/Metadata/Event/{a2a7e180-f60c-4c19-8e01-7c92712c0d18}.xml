@@ -103,7 +103,7 @@
 			<value>0.30000000000000004</value>
 		</property>
 		<property name="length">
-			<value>1.5</value>
+			<value>1.55</value>
 		</property>
 		<relationship name="fadeInCurve">
 			<destination>{47746dee-3e60-43e4-bd91-0da0a8fee79a}</destination>
@@ -288,7 +288,7 @@
 	</object>
 	<object class="AutomationPoint" id="{931ded96-82d7-4f41-8b42-ed0f2e9fd48a}">
 		<property name="position">
-			<value>1.8</value>
+			<value>1.8500000000000001</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -307,7 +307,7 @@
 	</object>
 	<object class="AutomationPoint" id="{199188f5-ef95-4ad6-9e18-ed3428b22a51}">
 		<property name="position">
-			<value>1.8</value>
+			<value>1.8500000000000001</value>
 		</property>
 		<property name="value">
 			<value>1</value>
