@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{bdad2fde-ea3f-45f0-8423-6f72f7706ea3}">
+		<property name="assetPath">
+			<value>Character SFX/Big Robot/Actions/PickupRelease/Barrel/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{901c69ff-b09e-4fb8-b7d9-d97094e64553}</destination>
+		</relationship>
+	</object>
+</objects>

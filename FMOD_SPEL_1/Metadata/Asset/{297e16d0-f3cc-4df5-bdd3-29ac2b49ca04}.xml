@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{297e16d0-f3cc-4df5-bdd3-29ac2b49ca04}">
+		<property name="assetPath">
+			<value>Character SFX/Small Robot/Jumpland/GrassTexture/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{901c69ff-b09e-4fb8-b7d9-d97094e64553}</destination>
+		</relationship>
+	</object>
+</objects>

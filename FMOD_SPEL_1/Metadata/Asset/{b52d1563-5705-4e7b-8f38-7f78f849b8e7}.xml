@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EncodableAsset" id="{b52d1563-5705-4e7b-8f38-7f78f849b8e7}">
+		<property name="assetPath">
+			<value>Character SFX/Small Robot/Movement Noise/New Folder 2/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{901c69ff-b09e-4fb8-b7d9-d97094e64553}</destination>
+		</relationship>
+	</object>
+</objects>
