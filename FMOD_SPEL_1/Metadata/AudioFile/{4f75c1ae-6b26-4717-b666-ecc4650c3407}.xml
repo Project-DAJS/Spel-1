@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{529d5d06-dda7-4757-89ec-85a3bf1d99dc}">
+	<object class="AudioFile" id="{4f75c1ae-6b26-4717-b666-ecc4650c3407}">
 		<property name="assetPath">
-			<value>Character SFX/Big Robot/Movement/Movement Noise/BigRobot_MovementNoise-001.wav</value>
+			<value>Ambience/ForestAmbience/WildLife/Birds/ForestAmbience_BirdSpots-010.wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>48</value>
+			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>0.57833333333333337</value>
+			<value>3.6462811791383221</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{901c69ff-b09e-4fb8-b7d9-d97094e64553}</destination>
