@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{9fb06a57-c32b-49ae-87ca-67acf66aa8bf}">
+	<object class="AudioFile" id="{0b5e8c4b-58d0-4a79-8752-c7d5b9362381}">
 		<property name="assetPath">
-			<value>Ambience/ForestAmbience/SpotSounds/ForestAmbience_TreeSpots-002.wav</value>
+			<value>Character SFX/Small Robot/Footsteps/Asphalt/SmallRobot_Footsteps_Asphalt-004.wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>44.0999985</value>
+			<value>48</value>
 		</property>
 		<property name="channelCount">
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>11</value>
+			<value>0.41689583333333335</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{901c69ff-b09e-4fb8-b7d9-d97094e64553}</destination>

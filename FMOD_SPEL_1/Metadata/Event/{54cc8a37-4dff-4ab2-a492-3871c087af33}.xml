@@ -106,6 +106,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{66306ab2-277a-46bc-8ba3-b2b951dd3489}">
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{198018f4-98d0-48fa-b9eb-a19cd514eb47}</destination>
 		</relationship>
@@ -201,10 +204,10 @@
 	</object>
 	<object class="EventMixerGroup" id="{3498e471-3f08-42ec-bf11-96a7f7db1d9e}">
 		<property name="volume">
-			<value>-6</value>
+			<value>3.5</value>
 		</property>
 		<property name="name">
-			<value>ForestLoops</value>
+			<value>Main Loops</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{7f726012-389c-499f-a790-8233aff1fe56}</destination>
