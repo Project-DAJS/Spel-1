@@ -156,7 +156,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{793ac699-ac8d-4103-a505-14b9e56a21a9}">
 		<property name="volume">
-			<value>-6</value>
+			<value>-4.5</value>
 		</property>
 		<property name="name">
 			<value>Main Loops</value>
@@ -268,7 +268,6 @@
 		<property name="length">
 			<value>32</value>
 		</property>
-		<property name="name" />
 		<relationship name="timeline">
 			<destination>{7d20ecc9-9f07-41f1-a87b-c94b7a0d7880}</destination>
 		</relationship>
