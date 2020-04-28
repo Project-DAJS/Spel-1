@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EventFolder" id="{59ea4bb5-7475-4811-8237-49f1e3638ef0}">
+		<property name="name">
+			<value>Control Panels</value>
+		</property>
+		<relationship name="folder">
+			<destination>{73afe3b4-f0a4-4c38-8821-3c8e9d1b03e5}</destination>
+		</relationship>
+	</object>
+</objects>

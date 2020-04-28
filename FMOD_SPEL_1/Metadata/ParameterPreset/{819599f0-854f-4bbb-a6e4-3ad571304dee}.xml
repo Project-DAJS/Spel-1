@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{819599f0-854f-4bbb-a6e4-3ad571304dee}">
+		<property name="name">
+			<value>Electricity off</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9c4feed5-e6f2-4e6d-885e-4ae0ffa8673a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{2741172b-d1d6-42c2-9b1f-81099ce677fa}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{2741172b-d1d6-42c2-9b1f-81099ce677fa}">
+		<property name="parameterType">
+			<value>1</value>
+		</property>
+		<property name="maximum">
+			<value>11</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
