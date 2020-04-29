@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{1bbc02e5-21e9-466f-b497-0bf8937b6081}">
+	<object class="AudioFile" id="{1b96c736-9a7d-4d61-83ac-2fb9efabb78a}">
 		<property name="assetPath">
-			<value>Character SFX/Big Robot/WheelSounds/Engine/Big_Wheel_Engine_Loop.wav</value>
+			<value>Character SFX/Big Robot/WheelSounds/Engine/Big_Wheel_EngineLoop.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
@@ -14,7 +14,7 @@
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>11.350625000000001</value>
+			<value>16.132291666666667</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{901c69ff-b09e-4fb8-b7d9-d97094e64553}</destination>

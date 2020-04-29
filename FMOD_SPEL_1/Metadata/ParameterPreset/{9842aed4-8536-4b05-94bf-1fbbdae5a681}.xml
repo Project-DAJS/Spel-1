@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="ParameterPreset" id="{819599f0-854f-4bbb-a6e4-3ad571304dee}">
+	<object class="ParameterPreset" id="{9842aed4-8536-4b05-94bf-1fbbdae5a681}">
 		<property name="name">
-			<value>Electricity On</value>
+			<value>IsPushing</value>
 		</property>
 		<relationship name="folder">
 			<destination>{9c4feed5-e6f2-4e6d-885e-4ae0ffa8673a}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{2741172b-d1d6-42c2-9b1f-81099ce677fa}</destination>
+			<destination>{eea115c6-a1d0-499a-8f98-cd18ca63782f}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{2741172b-d1d6-42c2-9b1f-81099ce677fa}">
+	<object class="GameParameter" id="{eea115c6-a1d0-499a-8f98-cd18ca63782f}">
 		<property name="parameterType">
 			<value>1</value>
 		</property>
@@ -19,7 +19,7 @@
 			<value>2</value>
 		</property>
 		<property name="initialValue">
-			<value>1</value>
+			<value>0</value>
 		</property>
 	</object>
 </objects>

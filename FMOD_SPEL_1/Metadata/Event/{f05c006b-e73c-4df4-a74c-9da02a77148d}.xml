@@ -166,7 +166,6 @@
 		<relationship name="sounds">
 			<destination>{20fbec0b-6a21-431d-9624-1d7fe17f8cff}</destination>
 			<destination>{ff367096-f012-4d90-a45f-aa859eb1613c}</destination>
-			<destination>{241f6098-ab57-498a-8de2-bada2ba281fc}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{973b8ef7-ad6a-44cc-a129-d672bea6291b}">
@@ -341,7 +340,7 @@
 			<value>18000</value>
 		</property>
 		<property name="minimumScatterDistance">
-			<value>7.4000001</value>
+			<value>8.19999981</value>
 		</property>
 		<property name="maximumScatterDistance">
 			<value>250</value>
@@ -361,6 +360,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{15afb100-6710-4487-9ca3-1dc61f51dcb6}">
+		<property name="volume">
+			<value>-2.5</value>
+		</property>
 		<property name="name">
 			<value>Crows</value>
 		</property>
@@ -428,11 +430,6 @@
 	<object class="SingleSound" id="{ff367096-f012-4d90-a45f-aa859eb1613c}">
 		<relationship name="audioFile">
 			<destination>{df5428a9-72c1-49ab-b690-07b92695a5f1}</destination>
-		</relationship>
-	</object>
-	<object class="SingleSound" id="{241f6098-ab57-498a-8de2-bada2ba281fc}">
-		<relationship name="audioFile">
-			<destination>{580d9bf8-9eb4-4608-a1f1-31244a96401a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{97b23894-630c-4497-95f2-17c29a68b2df}">
