@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{83849a25-ee7f-4648-a582-64158cc021ff}">
+		<property name="assetPath">
+			<value>Interactions/Chain/ChainRattle/BigRobot_GrabChain_ChainRattle-003.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.72285714285714286</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{901c69ff-b09e-4fb8-b7d9-d97094e64553}</destination>
+		</relationship>
+	</object>
+</objects>

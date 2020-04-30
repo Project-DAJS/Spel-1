@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="Bank" id="{6fba4291-e531-45a5-b69a-5f367a3d1228}">
+	<object class="Bank" id="{dc10b06d-58ab-4649-94e8-e68bde2bd60a}">
 		<property name="name">
-			<value>SmallRobot_Foley</value>
+			<value>Ambience</value>
 		</property>
 		<relationship name="folder">
 			<destination>{3b38c88d-8752-4519-9d99-b5fcfdd1a5fb}</destination>

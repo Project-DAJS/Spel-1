@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{7594ad86-2068-40a3-8dae-80ee5e5e579a}">
+		<property name="assetPath">
+			<value>Interactions/Chain/BigRobot_GrabChain_GrabSound.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.15319727891156462</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{901c69ff-b09e-4fb8-b7d9-d97094e64553}</destination>
+		</relationship>
+	</object>
+</objects>

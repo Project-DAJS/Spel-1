@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{6907dd9f-3ed4-4d51-bb88-67bc7f785b25}">
+		<property name="assetPath">
+			<value>Interactions/Chain/BigRobot_LetGoChain_MotorSound.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.35340136054421767</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{901c69ff-b09e-4fb8-b7d9-d97094e64553}</destination>
+		</relationship>
+	</object>
+</objects>
