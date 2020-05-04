@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerReturn" id="{fb254721-fd01-46cd-bb79-fbdc5cb73f6e}">
+		<property name="name">
+			<value>ReverbTunnel</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{db5d4b76-bf37-4ee7-9cb5-2a4fb9d047dc}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{111d9ed8-132a-4e7d-8d64-6132abaff5b2}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{b84c56a0-1c1b-48bf-a1ba-61c61bf134a7}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{db5d4b76-bf37-4ee7-9cb5-2a4fb9d047dc}">
+		<relationship name="effects">
+			<destination>{6a21a6cf-c0f2-4658-b8fe-0ebd42792119}</destination>
+			<destination>{3cd9a715-0bc3-4e84-a6d6-8133b4311211}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{111d9ed8-132a-4e7d-8d64-6132abaff5b2}" />
+	<object class="MixerBusFader" id="{6a21a6cf-c0f2-4658-b8fe-0ebd42792119}" />
+	<object class="ConvolutionReverbEffect" id="{3cd9a715-0bc3-4e84-a6d6-8133b4311211}" />
+</objects>

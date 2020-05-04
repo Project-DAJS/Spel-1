@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{16361fee-11e5-48e4-9dd5-c92709a805ac}">
+		<property name="color">
+			<value>Magenta</value>
+		</property>
+		<property name="name">
+			<value>LargeRobotFoley</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{e0d4b35a-46e4-4f08-8e1d-40b2e2596fd8}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{20482bf4-a35d-46cb-9e3d-7e5a7938950e}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{da0e8725-71d8-4c50-ae34-25c44369eb3f}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{e0d4b35a-46e4-4f08-8e1d-40b2e2596fd8}">
+		<relationship name="effects">
+			<destination>{722d025f-fa04-4c96-9715-095d82b4dd16}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{20482bf4-a35d-46cb-9e3d-7e5a7938950e}" />
+	<object class="MixerBusFader" id="{722d025f-fa04-4c96-9715-095d82b4dd16}" />
+</objects>

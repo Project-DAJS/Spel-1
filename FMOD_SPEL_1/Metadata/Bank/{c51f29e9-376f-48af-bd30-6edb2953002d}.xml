@@ -5,7 +5,7 @@
 			<value>BigRobot_Foley</value>
 		</property>
 		<relationship name="folder">
-			<destination>{3b38c88d-8752-4519-9d99-b5fcfdd1a5fb}</destination>
+			<destination>{dacc0964-cbf8-4cc8-8502-de805248e473}</destination>
 		</relationship>
 	</object>
 </objects>

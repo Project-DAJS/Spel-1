@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="SnapshotGroup" id="{9daa23f5-3842-4587-aa0a-58e24e21d215}">
+		<property name="name">
+			<value>MenuOpen</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e88b9e8f-057f-47e4-9094-78de2fbc1ca5}</destination>
+		</relationship>
+		<relationship name="items">
+			<destination>{5f2e689b-41bd-40f0-983b-6ba0fa2a65d2}</destination>
+		</relationship>
+	</object>
+</objects>

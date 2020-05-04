@@ -59,7 +59,7 @@
 			<destination>{ab81c983-40fd-43cb-81a9-b1bd96205d96}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{b84c56a0-1c1b-48bf-a1ba-61c61bf134a7}</destination>
+			<destination>{f9d6e115-e512-4837-b566-679e1b59aed2}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{f2d50030-d7be-4953-8499-d9dc40c0c035}" />
@@ -169,7 +169,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{3498e471-3f08-42ec-bf11-96a7f7db1d9e}">
 		<property name="volume">
-			<value>-3.5</value>
+			<value>-5.5</value>
 		</property>
 		<property name="name">
 			<value>Main Loops</value>
@@ -208,10 +208,10 @@
 			<value>8500</value>
 		</property>
 		<property name="minimumScatterDistance">
-			<value>8.60000038</value>
+			<value>7.5999999</value>
 		</property>
 		<property name="maximumScatterDistance">
-			<value>10000</value>
+			<value>85</value>
 		</property>
 		<property name="volumeRandomization">
 			<value>-7</value>
@@ -267,14 +267,11 @@
 		</relationship>
 	</object>
 	<object class="SoundScatterer" id="{ca5a6faa-fc5d-4d84-8adc-5d2fd6e782a6}">
-		<property name="triggerProbability">
-			<value>12.5</value>
-		</property>
 		<property name="length">
 			<value>39</value>
 		</property>
 		<property name="volume">
-			<value>3</value>
+			<value>10</value>
 		</property>
 		<property name="minimumTimeBetweenSounds">
 			<value>350</value>
@@ -283,10 +280,10 @@
 			<value>4500</value>
 		</property>
 		<property name="minimumScatterDistance">
-			<value>15</value>
+			<value>5.5999999</value>
 		</property>
 		<property name="maximumScatterDistance">
-			<value>2000</value>
+			<value>95</value>
 		</property>
 		<property name="volumeRandomization">
 			<value>-9</value>
@@ -392,7 +389,11 @@
 			<destination>{916bb547-8059-48c9-9cf9-3b0cc77782c9}</destination>
 		</relationship>
 	</object>
-	<object class="MixerBusPanner" id="{a55e35e6-cadf-43d8-922e-b0e09ae672a7}" />
+	<object class="MixerBusPanner" id="{a55e35e6-cadf-43d8-922e-b0e09ae672a7}">
+		<property name="stereoPan">
+			<value>-12</value>
+		</property>
+	</object>
 	<object class="RandomizerModulator" id="{47703da9-0492-4574-94af-0d5694fe62ab}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>volume</value>
@@ -714,7 +715,7 @@
 	</object>
 	<object class="AutomationPoint" id="{c558c7a8-e260-4a18-9f2f-98df5f494e61}">
 		<property name="position">
-			<value>3</value>
+			<value>2</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -722,13 +723,13 @@
 	</object>
 	<object class="AutomationPoint" id="{fe26dcd9-4e7b-4b29-9f8b-e7461d84493d}">
 		<property name="position">
-			<value>32</value>
+			<value>9.5</value>
 		</property>
 		<property name="value">
 			<value>1</value>
 		</property>
 		<property name="curveShape">
-			<value>0.25471893</value>
+			<value>-0.0324732587</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{4ff5da83-003c-40e5-84e4-add9f79cd42c}">

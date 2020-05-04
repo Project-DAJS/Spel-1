@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="SnapshotGroup" id="{53ea924b-b01f-4bda-a171-48f64cf11564}">
+		<property name="name">
+			<value>AmbienceShifts</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e88b9e8f-057f-47e4-9094-78de2fbc1ca5}</destination>
+		</relationship>
+		<relationship name="items">
+			<destination>{7a351e08-e48b-4725-90eb-16b005147038}</destination>
+			<destination>{3540eee6-8a69-4f6a-8550-3e926ab47511}</destination>
+			<destination>{3c7c10de-6686-4fed-be2a-aee01180ab5b}</destination>
+			<destination>{ee7ae293-659b-4ef0-8ae4-670d21e6d42b}</destination>
+		</relationship>
+	</object>
+</objects>

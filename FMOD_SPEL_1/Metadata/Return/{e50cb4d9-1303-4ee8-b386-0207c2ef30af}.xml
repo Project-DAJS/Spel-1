@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerReturn" id="{e50cb4d9-1303-4ee8-b386-0207c2ef30af}">
+		<property name="volume">
+			<value>-80</value>
+		</property>
+		<property name="color">
+			<value>Red</value>
+		</property>
+		<property name="name">
+			<value>ReverbFactoryOutside</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{a5dd57f3-2193-435a-9439-0c7d71500572}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{5fa9d044-10a8-42d8-8744-0a46b1de4606}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{b84c56a0-1c1b-48bf-a1ba-61c61bf134a7}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{a5dd57f3-2193-435a-9439-0c7d71500572}">
+		<relationship name="effects">
+			<destination>{e6328cd3-bd6b-44b6-a557-248d5d37fef6}</destination>
+			<destination>{87fa7708-e3ef-4b87-b2fe-7c5c8a213a1b}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{5fa9d044-10a8-42d8-8744-0a46b1de4606}" />
+	<object class="ConvolutionReverbEffect" id="{e6328cd3-bd6b-44b6-a557-248d5d37fef6}" />
+	<object class="MixerBusFader" id="{87fa7708-e3ef-4b87-b2fe-7c5c8a213a1b}" />
+</objects>
