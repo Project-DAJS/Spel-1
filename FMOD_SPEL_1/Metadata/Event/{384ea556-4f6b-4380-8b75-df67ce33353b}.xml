@@ -114,6 +114,9 @@
 		<property name="length">
 			<value>18.5</value>
 		</property>
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<relationship name="sounds">
 			<destination>{2697aa4c-4059-4218-9718-5614b10d4297}</destination>
 			<destination>{fe74ed27-bd21-418a-99c9-de5ed3453ee4}</destination>
@@ -153,7 +156,6 @@
 		<property name="length">
 			<value>12</value>
 		</property>
-		<property name="name" />
 		<relationship name="timeline">
 			<destination>{25c68441-0fbb-411a-b0ef-b871cb3d0397}</destination>
 		</relationship>

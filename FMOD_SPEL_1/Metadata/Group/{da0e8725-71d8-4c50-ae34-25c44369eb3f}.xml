@@ -18,14 +18,13 @@
 		<relationship name="effects">
 			<destination>{db171d17-b0dc-478e-ab55-6c9dd72f97d5}</destination>
 			<destination>{0b2e62e9-9409-4889-8452-aa3997ec370b}</destination>
-			<destination>{1fc82c9f-98d9-4d80-bcba-0fdf003b93bb}</destination>
 			<destination>{3bd19020-b0aa-45a7-9bb6-ac5d4171468c}</destination>
+			<destination>{2c3485d0-635f-421a-8f87-7482262ea6aa}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cc79f210-0090-4aa4-8c64-1ddc9d628006}" />
 	<object class="MixerBusFader" id="{db171d17-b0dc-478e-ab55-6c9dd72f97d5}" />
 	<object class="MultibandEqEffect" id="{0b2e62e9-9409-4889-8452-aa3997ec370b}" />
-	<object class="MultibandEqEffect" id="{1fc82c9f-98d9-4d80-bcba-0fdf003b93bb}" />
 	<object class="MixerSend" id="{3bd19020-b0aa-45a7-9bb6-ac5d4171468c}">
 		<property name="inputFormat">
 			<value>2</value>
@@ -34,4 +33,5 @@
 			<destination>{fb254721-fd01-46cd-bb79-fbdc5cb73f6e}</destination>
 		</relationship>
 	</object>
+	<object class="MultibandEqEffect" id="{2c3485d0-635f-421a-8f87-7482262ea6aa}" />
 </objects>

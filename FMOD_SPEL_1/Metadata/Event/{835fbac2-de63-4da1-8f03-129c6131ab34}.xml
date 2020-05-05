@@ -101,6 +101,9 @@
 		<property name="length">
 			<value>6.8999546485260774</value>
 		</property>
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{104e2f76-0041-40c8-b49a-cd63cc0c7c3a}</destination>
 			<destination>{db83b4dd-e77e-43e7-9ee8-83d080302b6a}</destination>
