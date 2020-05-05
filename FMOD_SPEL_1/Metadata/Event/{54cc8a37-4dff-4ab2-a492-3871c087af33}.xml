@@ -169,7 +169,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{3498e471-3f08-42ec-bf11-96a7f7db1d9e}">
 		<property name="volume">
-			<value>-5.5</value>
+			<value>-16</value>
 		</property>
 		<property name="name">
 			<value>Main Loops</value>
@@ -235,7 +235,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{67eb4741-58cf-42fd-86a6-493ec6212105}">
 		<property name="volume">
-			<value>10</value>
+			<value>4</value>
 		</property>
 		<property name="name">
 			<value>Scatter Trees</value>
@@ -283,10 +283,13 @@
 			<value>4500</value>
 		</property>
 		<property name="minimumScatterDistance">
-			<value>8.19999981</value>
+			<value>10</value>
 		</property>
 		<property name="maximumScatterDistance">
-			<value>65</value>
+			<value>80</value>
+		</property>
+		<property name="volumeRandomization">
+			<value>-2.5</value>
 		</property>
 		<property name="pitchRandomization">
 			<value>1.39999986</value>
@@ -307,7 +310,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{9c889d51-0d6c-414b-beed-1b37288560b9}">
 		<property name="volume">
-			<value>10</value>
+			<value>3</value>
 		</property>
 		<property name="name">
 			<value>Scatter birds</value>

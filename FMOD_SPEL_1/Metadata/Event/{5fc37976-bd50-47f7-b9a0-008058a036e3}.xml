@@ -165,7 +165,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{793ac699-ac8d-4103-a505-14b9e56a21a9}">
 		<property name="volume">
-			<value>-4.5</value>
+			<value>-10.5</value>
 		</property>
 		<property name="name">
 			<value>Main Loops</value>
@@ -210,7 +210,13 @@
 			<value>9.40000057</value>
 		</property>
 		<property name="maximumScatterDistance">
-			<value>65</value>
+			<value>80</value>
+		</property>
+		<property name="volumeRandomization">
+			<value>-3.5</value>
+		</property>
+		<property name="pitchRandomization">
+			<value>0.649999976</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{43f3d967-3025-43a9-b3e1-6b7a0bad8c96}</destination>
@@ -273,7 +279,7 @@
 			<value>150</value>
 		</property>
 		<property name="volumeRandomization">
-			<value>-2</value>
+			<value>-3.5</value>
 		</property>
 		<property name="pitchRandomization">
 			<value>0.699999928</value>
