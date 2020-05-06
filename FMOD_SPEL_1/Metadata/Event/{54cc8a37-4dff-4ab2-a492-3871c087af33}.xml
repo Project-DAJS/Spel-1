@@ -169,7 +169,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{3498e471-3f08-42ec-bf11-96a7f7db1d9e}">
 		<property name="volume">
-			<value>-16</value>
+			<value>-15.5</value>
 		</property>
 		<property name="name">
 			<value>Main Loops</value>
@@ -310,7 +310,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{9c889d51-0d6c-414b-beed-1b37288560b9}">
 		<property name="volume">
-			<value>3</value>
+			<value>8</value>
 		</property>
 		<property name="name">
 			<value>Scatter birds</value>
