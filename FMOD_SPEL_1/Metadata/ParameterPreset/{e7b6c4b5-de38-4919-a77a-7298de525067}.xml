@@ -18,8 +18,11 @@
 		<property name="initialValue">
 			<value>0</value>
 		</property>
+		<property name="seekSpeed">
+			<value>14</value>
+		</property>
 		<property name="seekSpeedDescending">
-			<value>7</value>
+			<value>8</value>
 		</property>
 		<property name="seekSpeedAsymmetric">
 			<value>true</value>

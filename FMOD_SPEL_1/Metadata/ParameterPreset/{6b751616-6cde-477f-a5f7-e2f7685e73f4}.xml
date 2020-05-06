@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{6b751616-6cde-477f-a5f7-e2f7685e73f4}">
+		<property name="name">
+			<value>IsGateClosed</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9c4feed5-e6f2-4e6d-885e-4ae0ffa8673a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{970a8e8e-5ecd-4cbf-a567-9e83a9f853d1}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{970a8e8e-5ecd-4cbf-a567-9e83a9f853d1}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
 	<object class="MixerReturn" id="{54276436-6606-4aa8-aa1f-0561492ab8b7}">
+		<property name="volume">
+			<value>-80</value>
+		</property>
 		<property name="color">
 			<value>Red</value>
 		</property>
@@ -32,10 +35,10 @@
 	<object class="MixerBusPanner" id="{34948885-7bc8-432f-b4d4-77d44bb78db1}" />
 	<object class="ConvolutionReverbEffect" id="{0f703db2-78e4-455a-bf4c-7177bf5e244e}">
 		<property name="endFrame">
-			<value>80489</value>
+			<value>122732</value>
 		</property>
 		<relationship name="referenceableData">
-			<destination>{118476a1-1ab3-4c33-8136-32826f0ffbd6}</destination>
+			<destination>{d0b7a2ca-2707-445f-abbe-58ac9c1918e2}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{d7ebfc68-ed3d-4388-aa93-741d68fcc5b0}" />

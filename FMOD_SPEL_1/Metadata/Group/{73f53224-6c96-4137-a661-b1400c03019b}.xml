@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{73f53224-6c96-4137-a661-b1400c03019b}">
+		<property name="name">
+			<value>Master without UI</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{f0bb822e-0beb-4a90-b15f-c40a835df679}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{ac80a31c-df33-4135-ac1e-e900f3d4c777}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{b84c56a0-1c1b-48bf-a1ba-61c61bf134a7}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{f0bb822e-0beb-4a90-b15f-c40a835df679}">
+		<relationship name="effects">
+			<destination>{3dc744a4-c2cb-4427-80ad-22ae48826b80}</destination>
+			<destination>{55dfef29-16b5-4c19-9449-83c56e64fdcd}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{ac80a31c-df33-4135-ac1e-e900f3d4c777}" />
+	<object class="MixerBusFader" id="{3dc744a4-c2cb-4427-80ad-22ae48826b80}" />
+	<object class="MultibandEqEffect" id="{55dfef29-16b5-4c19-9449-83c56e64fdcd}" />
+</objects>

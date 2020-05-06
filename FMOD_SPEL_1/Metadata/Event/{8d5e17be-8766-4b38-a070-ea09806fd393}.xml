@@ -144,7 +144,7 @@
 	</object>
 	<object class="SnapshotModule" id="{aa6b7803-986c-45fc-b91e-73c0069d414e}">
 		<property name="length">
-			<value>2</value>
+			<value>1.5</value>
 		</property>
 		<relationship name="automators">
 			<destination>{1519e00d-0531-4a76-8712-05b3848caef7}</destination>
@@ -173,11 +173,8 @@
 		</relationship>
 	</object>
 	<object class="SnapshotModule" id="{7db5bd4a-86a5-4a54-9574-b6835bf8131f}">
-		<property name="start">
-			<value>0.45000000000000001</value>
-		</property>
 		<property name="length">
-			<value>3.5500000000000016</value>
+			<value>4</value>
 		</property>
 		<relationship name="automators">
 			<destination>{e6d01ab8-2c34-451c-b993-e2b1a4dc0286}</destination>
