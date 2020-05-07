@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{dee94459-e168-4896-98ed-dfd21422edf6}">
+		<property name="name">
+			<value>IsConveyorRunning</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9c4feed5-e6f2-4e6d-885e-4ae0ffa8673a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{21774b0c-046e-43de-8ccf-cd498b5a3a22}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{21774b0c-046e-43de-8ccf-cd498b5a3a22}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

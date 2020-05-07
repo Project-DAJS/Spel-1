@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{2acc67cb-7375-4783-8721-5bc1d11a1013}">
 		<property name="assetPath">
-			<value>3 Rooms 07 Deep Stone.C.2.wav</value>
+			<value>Convolution Reverbs/3 Rooms 07 Deep Stone.C.2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

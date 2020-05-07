@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{ce57c34c-8c73-405c-b76d-86462410bdfa}">
 		<property name="assetPath">
-			<value>6 Spaces 08 Car Park.2.2.wav</value>
+			<value>Convolution Reverbs/6 Spaces 08 Car Park.2.2.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

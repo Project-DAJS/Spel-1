@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{1713872d-8194-482e-88cb-ac987a78c13a}">
+	<object class="AudioFile" id="{371e2c63-ef71-43d8-9296-7cd71bf12173}">
 		<property name="assetPath">
-			<value>6 Spaces 11 Tanglewood.C.1.wav</value>
+			<value>EnvironmentalSFX/ConveyorBelt/ConveyorBelt_Loop.wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>48</value>
+			<value>44.0999985</value>
 		</property>
 		<property name="channelCount">
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>4.981770833333333</value>
+			<value>10</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{901c69ff-b09e-4fb8-b7d9-d97094e64553}</destination>

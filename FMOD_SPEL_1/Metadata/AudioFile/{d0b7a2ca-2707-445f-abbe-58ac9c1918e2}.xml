@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{d0b7a2ca-2707-445f-abbe-58ac9c1918e2}">
 		<property name="assetPath">
-			<value>Woods1.wav</value>
+			<value>Convolution Reverbs/Woods1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>
