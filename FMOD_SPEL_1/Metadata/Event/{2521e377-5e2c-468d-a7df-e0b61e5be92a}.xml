@@ -113,7 +113,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{04aae5c7-1e81-4dde-bf37-c54e66c685f4}">
 		<property name="volume">
-			<value>-3.5</value>
+			<value>-25.5</value>
 		</property>
 		<property name="name">
 			<value>Squeaks</value>
@@ -211,6 +211,8 @@
 	<object class="MixerBusEffectChain" id="{bf8e3aa4-d1e2-4009-b4cc-3d440227cc3b}">
 		<relationship name="effects">
 			<destination>{3e02bf63-20e9-421e-9c06-44d74b142f8c}</destination>
+			<destination>{814363e2-53b2-4c8d-9876-91e858d4f605}</destination>
+			<destination>{f79b81b4-d46c-4742-8c23-72e0c759f435}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b3a8ef15-6918-48ab-9e18-d6d9ab3e3702}" />
@@ -235,4 +237,20 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{3e02bf63-20e9-421e-9c06-44d74b142f8c}" />
+	<object class="ThreeEQEffect" id="{814363e2-53b2-4c8d-9876-91e858d4f605}">
+		<property name="lowGain">
+			<value>3</value>
+		</property>
+		<property name="midGain">
+			<value>-7.5</value>
+		</property>
+		<property name="highGain">
+			<value>-3.5</value>
+		</property>
+	</object>
+	<object class="PitchShifterEffect" id="{f79b81b4-d46c-4742-8c23-72e0c759f435}">
+		<property name="pitch">
+			<value>0.780000031</value>
+		</property>
+	</object>
 </objects>

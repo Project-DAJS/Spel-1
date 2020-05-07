@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{52786e05-f54e-4cc4-b271-a8de7868df11}">
+	<object class="AudioFile" id="{10465020-d96b-4547-8718-cfd4b2a2409e}">
 		<property name="assetPath">
-			<value>Character SFX/Big Robot/WheelSounds/Engine/Big_Wheel_EngineLoop2.wav</value>
+			<value>Character SFX/Big Robot/WheelSounds/Engine/Big_Wheel_EngineLoop3.wav</value>
 		</property>
 		<property name="frequencyInKHz">
-			<value>44.0999985</value>
+			<value>48</value>
 		</property>
 		<property name="channelCount">
 			<value>1</value>
 		</property>
 		<property name="length">
-			<value>16.132290249433108</value>
+			<value>16.157333333333334</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{901c69ff-b09e-4fb8-b7d9-d97094e64553}</destination>

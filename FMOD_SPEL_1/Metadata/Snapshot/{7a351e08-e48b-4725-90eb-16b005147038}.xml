@@ -40,6 +40,9 @@
 			<destination>{91a09281-8f32-4ac5-be10-bcbbf0da7431}</destination>
 			<destination>{5c2bac73-70c6-4ce0-9452-fed5fc3b5db0}</destination>
 			<destination>{2fa1b7ce-2248-4b0f-9881-309fa1e11161}</destination>
+			<destination>{59428474-16f5-4fb2-b24e-0357156254cb}</destination>
+			<destination>{4ebe8420-6d6a-47aa-be51-f0f5d2f37074}</destination>
+			<destination>{a0e09abb-789d-4d81-ab3b-de97c5ed4f07}</destination>
 		</relationship>
 		<relationship name="snapshotTracks">
 			<destination>{18a1227d-080e-4a2f-9e63-b90de30130df}</destination>
@@ -209,7 +212,7 @@
 			<value>frequencyA</value>
 		</property>
 		<property name="value">
-			<value>1046.37341</value>
+			<value>21999.9902</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{51cf8aef-2d18-4ad2-a35e-1e315a213ff1}</destination>
@@ -220,7 +223,7 @@
 			<value>qualityA</value>
 		</property>
 		<property name="value">
-			<value>0.665137947</value>
+			<value>0.372103453</value>
 		</property>
 		<relationship name="automatableObject">
 			<destination>{51cf8aef-2d18-4ad2-a35e-1e315a213ff1}</destination>
@@ -279,6 +282,39 @@
 		</property>
 		<relationship name="automatableObject">
 			<destination>{fd292fa4-4021-4583-8990-00a21be15341}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{59428474-16f5-4fb2-b24e-0357156254cb}">
+		<property name="propertyName">
+			<value>qualityA</value>
+		</property>
+		<property name="value">
+			<value>0.707000017</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{55dfef29-16b5-4c19-9449-83c56e64fdcd}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{4ebe8420-6d6a-47aa-be51-f0f5d2f37074}">
+		<property name="propertyName">
+			<value>gainA</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{55dfef29-16b5-4c19-9449-83c56e64fdcd}</destination>
+		</relationship>
+	</object>
+	<object class="SnapshotProperty" id="{a0e09abb-789d-4d81-ab3b-de97c5ed4f07}">
+		<property name="propertyName">
+			<value>volume</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<relationship name="automatableObject">
+			<destination>{73f53224-6c96-4137-a661-b1400c03019b}</destination>
 		</relationship>
 	</object>
 	<object class="SnapshotTrack" id="{18a1227d-080e-4a2f-9e63-b90de30130df}">
