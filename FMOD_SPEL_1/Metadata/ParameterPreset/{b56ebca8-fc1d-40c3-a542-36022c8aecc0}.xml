@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{b56ebca8-fc1d-40c3-a542-36022c8aecc0}">
+		<property name="name">
+			<value>ALPF</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9c4feed5-e6f2-4e6d-885e-4ae0ffa8673a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{16fd02de-f1e6-4a93-b037-efac97083fb3}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{16fd02de-f1e6-4a93-b037-efac97083fb3}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

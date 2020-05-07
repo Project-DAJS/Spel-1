@@ -27,6 +27,13 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5fa9d044-10a8-42d8-8744-0a46b1de4606}" />
-	<object class="ConvolutionReverbEffect" id="{e6328cd3-bd6b-44b6-a557-248d5d37fef6}" />
+	<object class="ConvolutionReverbEffect" id="{e6328cd3-bd6b-44b6-a557-248d5d37fef6}">
+		<property name="endFrame">
+			<value>204972</value>
+		</property>
+		<relationship name="referenceableData">
+			<destination>{ce57c34c-8c73-405c-b76d-86462410bdfa}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{87fa7708-e3ef-4b87-b2fe-7c5c8a213a1b}" />
 </objects>
