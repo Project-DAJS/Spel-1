@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{dc3f3e41-d91d-4a21-9c84-6a7d34ffa3c6}">
+		<property name="assetPath">
+			<value>Character SFX/Small Robot/Voice/Random/SmallRobot_Random_end2.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>0.40266666666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{901c69ff-b09e-4fb8-b7d9-d97094e64553}</destination>
+		</relationship>
+	</object>
+</objects>
