@@ -2,10 +2,10 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{1e5dcb96-e601-4bbb-adf6-4f0138b7b5ef}">
 		<property name="name">
-			<value>Cancel</value>
+			<value>ClickBack</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7326fa21-f25d-4f5d-9249-a4f4b555e284}</destination>
@@ -30,6 +30,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{cdabae21-87d6-4269-bc21-123a2451cd64}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{ebbe9990-01df-47c6-a266-e3673c913729}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{4eb0a7d6-5c3d-4457-a2b5-f6eac8b7ddf0}">
@@ -56,11 +59,18 @@
 	<object class="EventAutomatableProperties" id="{181793d3-ec6e-4ac4-8c71-b4cfd4bf7069}" />
 	<object class="MarkerTrack" id="{b9c38313-d3bd-42d9-9e0e-d3125af0bb8d}" />
 	<object class="GroupTrack" id="{0004b801-0255-48db-ba80-7320ff328e3f}">
+		<relationship name="modules">
+			<destination>{a2890743-3c5d-48cb-bad3-8f8b4932ff00}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{9efe394d-c158-4e56-8d79-934d43bc49bd}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{cdabae21-87d6-4269-bc21-123a2451cd64}" />
+	<object class="Timeline" id="{cdabae21-87d6-4269-bc21-123a2451cd64}">
+		<relationship name="modules">
+			<destination>{a2890743-3c5d-48cb-bad3-8f8b4932ff00}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{2b9da183-52a6-4959-8c1d-20b6b9bb6193}">
 		<relationship name="effectChain">
 			<destination>{1667d596-6e7c-4fcc-9442-895e0699b8a0}</destination>
@@ -78,9 +88,17 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{4d9a3c73-c99f-44a1-b04a-82cc473a07a1}" />
+	<object class="SingleSound" id="{a2890743-3c5d-48cb-bad3-8f8b4932ff00}">
+		<property name="length">
+			<value>0.5031519274376417</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{12fc8796-e6cb-438e-99c9-c420ba027f68}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{9efe394d-c158-4e56-8d79-934d43bc49bd}">
 		<property name="name">
-			<value>Cancel</value>
+			<value>Back</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{18cb2d81-024b-472b-a6f2-c1abd6006d66}</destination>

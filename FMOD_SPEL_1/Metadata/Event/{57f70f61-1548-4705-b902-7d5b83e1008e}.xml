@@ -5,7 +5,7 @@
 			<value>Click</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{7326fa21-f25d-4f5d-9249-a4f4b555e284}</destination>
@@ -30,6 +30,9 @@
 		</relationship>
 		<relationship name="timeline">
 			<destination>{435363b6-1213-461c-8aa7-b6ac1b160e60}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{ebbe9990-01df-47c6-a266-e3673c913729}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{b6609522-d242-4671-a7fa-ac07c11ad713}">
@@ -56,11 +59,18 @@
 	<object class="EventAutomatableProperties" id="{53e73fc0-d0ee-4795-b574-1dcb3616b1c3}" />
 	<object class="MarkerTrack" id="{4f451b7f-a038-498d-ad12-0d07401c2bb1}" />
 	<object class="GroupTrack" id="{7746890f-8107-44a2-8dec-da2b4466f14b}">
+		<relationship name="modules">
+			<destination>{a2350fd8-9807-4130-a11c-e6bb6b3e0379}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{0b0c8e89-1c35-4cb0-81d9-4cd18f4c11f7}</destination>
 		</relationship>
 	</object>
-	<object class="Timeline" id="{435363b6-1213-461c-8aa7-b6ac1b160e60}" />
+	<object class="Timeline" id="{435363b6-1213-461c-8aa7-b6ac1b160e60}">
+		<relationship name="modules">
+			<destination>{a2350fd8-9807-4130-a11c-e6bb6b3e0379}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{e6f24779-70e3-4823-8421-eca62c832495}">
 		<relationship name="effectChain">
 			<destination>{806e31ec-b0c7-495c-b1f8-f7278275367f}</destination>
@@ -78,6 +88,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b7d357c1-156a-44ba-b3b3-415b84626fd1}" />
+	<object class="SingleSound" id="{a2350fd8-9807-4130-a11c-e6bb6b3e0379}">
+		<property name="length">
+			<value>0.85185941043083901</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{f51126d6-821f-4bdd-8d98-cef75b2da44d}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{0b0c8e89-1c35-4cb0-81d9-4cd18f4c11f7}">
 		<property name="name">
 			<value>Click</value>
