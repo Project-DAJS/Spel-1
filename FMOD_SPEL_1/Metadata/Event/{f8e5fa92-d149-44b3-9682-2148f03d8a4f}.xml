@@ -189,6 +189,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{9049f19d-b4ec-4a4c-b5e9-7f115dd785cc}">
+		<property name="volume">
+			<value>-6</value>
+		</property>
 		<property name="name">
 			<value>Electricity Loop</value>
 		</property>
@@ -326,10 +329,10 @@
 	</object>
 	<object class="SpatialiserEffect" id="{a49e950f-00d9-4d44-b7bb-2735aced6d5c}">
 		<property name="distanceRolloffType">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<property name="minimumDistance">
-			<value>3.4000001</value>
+			<value>4.4000001</value>
 		</property>
 		<property name="maximumDistance">
 			<value>40</value>

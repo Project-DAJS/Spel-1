@@ -135,7 +135,7 @@
 	</object>
 	<object class="MultiSound" id="{0f423116-9771-4ca2-a540-693fd0fa4dbe}">
 		<property name="start">
-			<value>0.70000000000000007</value>
+			<value>0.52000000000000002</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{9a76121f-32d4-404e-9710-c3cc385771f8}</destination>

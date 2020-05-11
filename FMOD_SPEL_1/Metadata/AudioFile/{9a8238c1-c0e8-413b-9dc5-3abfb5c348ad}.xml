@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{9a8238c1-c0e8-413b-9dc5-3abfb5c348ad}">
 		<property name="assetPath">
-			<value>OutsideAmbience20.wav</value>
+			<value>Convolution Reverbs/OutsideAmbience20.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

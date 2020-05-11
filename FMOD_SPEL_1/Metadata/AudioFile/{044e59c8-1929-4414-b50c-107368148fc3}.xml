@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{044e59c8-1929-4414-b50c-107368148fc3}">
 		<property name="assetPath">
-			<value>Paris Landing Dumpster.wav</value>
+			<value>Convolution Reverbs/Paris Landing Dumpster.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>96</value>

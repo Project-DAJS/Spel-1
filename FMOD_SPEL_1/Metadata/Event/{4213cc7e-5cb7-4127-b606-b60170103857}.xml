@@ -189,6 +189,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{044a7a0b-5d1f-4490-9ac3-37d04eba0ad8}">
+		<property name="volume">
+			<value>5</value>
+		</property>
 		<property name="name">
 			<value>Loop</value>
 		</property>
@@ -233,6 +236,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{daee06d8-615b-469e-bbf8-2abf692fd527}">
+		<property name="volume">
+			<value>-9.5</value>
+		</property>
 		<property name="name">
 			<value>Loop2</value>
 		</property>

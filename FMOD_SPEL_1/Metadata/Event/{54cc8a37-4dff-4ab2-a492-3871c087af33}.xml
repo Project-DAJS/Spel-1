@@ -202,9 +202,6 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{3498e471-3f08-42ec-bf11-96a7f7db1d9e}">
-		<property name="volume">
-			<value>-15.5</value>
-		</property>
 		<property name="name">
 			<value>Main Loops</value>
 		</property>
@@ -239,7 +236,7 @@
 			<value>650</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>8500</value>
+			<value>5000</value>
 		</property>
 		<property name="minimumScatterDistance">
 			<value>7.5999999</value>
@@ -281,7 +278,7 @@
 			<value>650</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>8500</value>
+			<value>6000</value>
 		</property>
 		<property name="minimumScatterDistance">
 			<value>7.5999999</value>
@@ -323,7 +320,7 @@
 			<value>650</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>8500</value>
+			<value>6500</value>
 		</property>
 		<property name="minimumScatterDistance">
 			<value>7.5999999</value>
@@ -365,7 +362,7 @@
 			<value>650</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>8500</value>
+			<value>2500</value>
 		</property>
 		<property name="minimumScatterDistance">
 			<value>7.5999999</value>
@@ -437,13 +434,13 @@
 			<value>350</value>
 		</property>
 		<property name="maximumTimeBetweenSounds">
-			<value>4500</value>
+			<value>3000</value>
 		</property>
 		<property name="minimumScatterDistance">
-			<value>9.80000019</value>
+			<value>10</value>
 		</property>
 		<property name="maximumScatterDistance">
-			<value>65</value>
+			<value>60</value>
 		</property>
 		<property name="volumeRandomization">
 			<value>-2.5</value>
@@ -467,7 +464,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{9c889d51-0d6c-414b-beed-1b37288560b9}">
 		<property name="volume">
-			<value>3.5</value>
+			<value>-3</value>
 		</property>
 		<property name="name">
 			<value>Scatter birds</value>

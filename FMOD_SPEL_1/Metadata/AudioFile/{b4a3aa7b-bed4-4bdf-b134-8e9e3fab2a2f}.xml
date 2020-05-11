@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="AudioFile" id="{b4a3aa7b-bed4-4bdf-b134-8e9e3fab2a2f}">
 		<property name="assetPath">
-			<value>1 Halls 26 Mechanics Hall.2.1.wav</value>
+			<value>Convolution Reverbs/1 Halls 26 Mechanics Hall.2.1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
