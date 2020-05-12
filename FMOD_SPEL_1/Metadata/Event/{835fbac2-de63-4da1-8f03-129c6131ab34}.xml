@@ -31,6 +31,10 @@
 		<relationship name="timeline">
 			<destination>{71dfd1ed-e01b-4431-be02-87a106f07499}</destination>
 		</relationship>
+		<relationship name="parameters">
+			<destination>{4f2e5cc6-e209-4094-bfcd-9e99601612e0}</destination>
+			<destination>{ac216760-6b4b-4297-b3ac-223ff86abbe3}</destination>
+		</relationship>
 		<relationship name="banks">
 			<destination>{dc10b06d-58ab-4649-94e8-e68bde2bd60a}</destination>
 		</relationship>
@@ -72,6 +76,16 @@
 		</relationship>
 		<relationship name="markers">
 			<destination>{361ea045-9288-4d9e-89b9-99cdfbc5f00d}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{4f2e5cc6-e209-4094-bfcd-9e99601612e0}">
+		<relationship name="preset">
+			<destination>{16fd02de-f1e6-4a93-b037-efac97083fb3}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{ac216760-6b4b-4297-b3ac-223ff86abbe3}">
+		<relationship name="preset">
+			<destination>{e1d5f4b1-2b92-4a9b-a2ed-b540ca5e5599}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{c8364a81-e6ae-427a-9c22-9dc18be6a79f}">
@@ -127,7 +141,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{c1664800-9876-4f84-b573-e52f62d99c44}">
 		<property name="volume">
-			<value>10</value>
+			<value>-16</value>
 		</property>
 		<property name="name">
 			<value>Birds</value>
@@ -162,6 +176,7 @@
 	<object class="MixerBusEffectChain" id="{7fb88f13-63db-47e0-b969-aeaaad4c3fe3}">
 		<relationship name="effects">
 			<destination>{8b5cd06c-7cf9-468a-b1a4-bca99d0a6140}</destination>
+			<destination>{1970e8fc-27ec-467e-aaa2-859dba202e1b}</destination>
 			<destination>{c1bdbb33-64d1-4ea6-9d3d-f2dd4db36e4f}</destination>
 		</relationship>
 	</object>
@@ -260,9 +275,23 @@
 	</object>
 	<object class="MixerBusPanner" id="{38043296-b7c8-455a-b6c3-6e4283a1c7ba}" />
 	<object class="MixerBusFader" id="{8b5cd06c-7cf9-468a-b1a4-bca99d0a6140}" />
+	<object class="ProxyEffect" id="{1970e8fc-27ec-467e-aaa2-859dba202e1b}">
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="preset">
+			<destination>{6cbc8dd5-2607-40c0-8fc0-b5fe3d5734e2}</destination>
+		</relationship>
+	</object>
 	<object class="SpatialiserEffect" id="{c1bdbb33-64d1-4ea6-9d3d-f2dd4db36e4f}">
+		<property name="distanceRolloffType">
+			<value>2</value>
+		</property>
+		<property name="minimumDistance">
+			<value>0.099999994</value>
+		</property>
 		<property name="maximumDistance">
-			<value>300</value>
+			<value>25</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{fe96da85-11ea-4b2a-b053-5792d608ff87}" />

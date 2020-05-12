@@ -5,7 +5,7 @@
 			<value>Fart</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{10982da4-7919-4b10-b895-8d1a37a70d82}</destination>
@@ -54,7 +54,7 @@
 			<destination>{f221d1d2-ba78-4971-a7a0-aad33af77e5b}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{b84c56a0-1c1b-48bf-a1ba-61c61bf134a7}</destination>
+			<destination>{e331a54d-779f-46b8-a341-4eb530a7a019}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{cec58938-9a3e-4d8a-bda9-15441224d75a}" />
@@ -166,7 +166,6 @@
 	<object class="MixerBusEffectChain" id="{ca2e27ad-22af-4a53-9dcd-03941117754c}">
 		<relationship name="effects">
 			<destination>{6fb63932-31b6-43ad-bfee-7e1c2671a1ba}</destination>
-			<destination>{5fbfdf93-e734-42db-b6cc-eb6b0d7927b5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{00b09653-5dbf-47c2-ab7e-14619a6cfda2}" />
@@ -200,7 +199,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{830f7c0e-015a-4c97-95bf-bab95384306a}" />
 	<object class="MixerBusFader" id="{6fb63932-31b6-43ad-bfee-7e1c2671a1ba}" />
-	<object class="SpatialiserEffect" id="{5fbfdf93-e734-42db-b6cc-eb6b0d7927b5}" />
 	<object class="AutomationPoint" id="{76c4352a-8f2a-40e8-a3b0-6402313d9d28}">
 		<property name="position">
 			<value>1.7000000000000002</value>

@@ -31,6 +31,10 @@
 		<relationship name="timeline">
 			<destination>{25c68441-0fbb-411a-b0ef-b871cb3d0397}</destination>
 		</relationship>
+		<relationship name="parameters">
+			<destination>{9e1c548f-5b86-46d7-a5b3-44beea9bfeed}</destination>
+			<destination>{047b0dcd-0d88-4aca-8f54-112ba278b0e4}</destination>
+		</relationship>
 		<relationship name="banks">
 			<destination>{dc10b06d-58ab-4649-94e8-e68bde2bd60a}</destination>
 		</relationship>
@@ -78,6 +82,16 @@
 		</relationship>
 		<relationship name="markers">
 			<destination>{5f80595d-d708-4316-b71f-675ae0160de6}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{9e1c548f-5b86-46d7-a5b3-44beea9bfeed}">
+		<relationship name="preset">
+			<destination>{16fd02de-f1e6-4a93-b037-efac97083fb3}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{047b0dcd-0d88-4aca-8f54-112ba278b0e4}">
+		<relationship name="preset">
+			<destination>{e1d5f4b1-2b92-4a9b-a2ed-b540ca5e5599}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{010bd934-15a4-4173-bb4a-19bd89665d03}">
@@ -134,7 +148,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{9893a067-a43c-4ee5-a001-393514c7d7f8}">
 		<property name="volume">
-			<value>10</value>
+			<value>-11.5</value>
 		</property>
 		<property name="name">
 			<value>Crickets</value>
@@ -209,6 +223,8 @@
 	<object class="MixerBusEffectChain" id="{00277066-4060-435c-9e68-3d7f1e540dc2}">
 		<relationship name="effects">
 			<destination>{c30d0573-a502-497e-9873-4bd423d73f0f}</destination>
+			<destination>{cce2a8e6-aa35-48b6-8dd1-24c2a4bbb23f}</destination>
+			<destination>{2f71e7f9-e9ef-4657-ab2b-626e645817c0}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8a88b2e3-ec93-458f-a2c7-cf559850b33c}" />
@@ -222,8 +238,11 @@
 	</object>
 	<object class="MixerBusFader" id="{8ed4ec45-75d4-4096-b1b1-228d8294931f}" />
 	<object class="SpatialiserEffect" id="{995091e0-e77e-4819-a7d3-812deb570f51}">
+		<property name="minimumDistance">
+			<value>0.299999982</value>
+		</property>
 		<property name="maximumDistance">
-			<value>350</value>
+			<value>12</value>
 		</property>
 	</object>
 	<object class="AutomationPoint" id="{4d84e605-1c64-4974-bb61-b33333e94c47}">
@@ -265,4 +284,23 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{c30d0573-a502-497e-9873-4bd423d73f0f}" />
+	<object class="ThreeEQEffect" id="{cce2a8e6-aa35-48b6-8dd1-24c2a4bbb23f}">
+		<property name="lowGain">
+			<value>-4</value>
+		</property>
+		<property name="midGain">
+			<value>-6</value>
+		</property>
+		<property name="highGain">
+			<value>-16</value>
+		</property>
+	</object>
+	<object class="ProxyEffect" id="{2f71e7f9-e9ef-4657-ab2b-626e645817c0}">
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="preset">
+			<destination>{6cbc8dd5-2607-40c0-8fc0-b5fe3d5734e2}</destination>
+		</relationship>
+	</object>
 </objects>

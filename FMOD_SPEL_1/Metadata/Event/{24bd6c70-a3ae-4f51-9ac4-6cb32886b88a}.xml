@@ -5,7 +5,7 @@
 			<value>GateReaction</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{10982da4-7919-4b10-b895-8d1a37a70d82}</destination>
@@ -53,7 +53,7 @@
 			<destination>{6898b896-c01a-4722-90cc-02de8e3678fe}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{b84c56a0-1c1b-48bf-a1ba-61c61bf134a7}</destination>
+			<destination>{e331a54d-779f-46b8-a341-4eb530a7a019}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{e104132f-291c-4c37-91e3-bcd3a3ec4e68}" />
@@ -89,12 +89,6 @@
 	</object>
 	<object class="MixerBusPanner" id="{6898b896-c01a-4722-90cc-02de8e3678fe}" />
 	<object class="MultiSound" id="{fc8aac69-f47d-43ae-b290-05c08d6ccc2d}">
-		<property name="triggerProbabilityEnabled">
-			<value>true</value>
-		</property>
-		<property name="triggerProbability">
-			<value>26.5</value>
-		</property>
 		<property name="length">
 			<value>2.4715419501133788</value>
 		</property>
@@ -120,7 +114,6 @@
 	<object class="MixerBusEffectChain" id="{90283b15-169c-4422-ac2a-3a1fbc462656}">
 		<relationship name="effects">
 			<destination>{f851b618-406c-493a-9d5a-b8891d9a0142}</destination>
-			<destination>{b605c4f4-de7c-4b95-b10f-8fe3455ba14c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c0adfbeb-c3dc-46a1-82a9-53928d19b258}" />
@@ -142,6 +135,5 @@
 	</object>
 	<object class="MixerBusPanner" id="{0fd94549-a0fd-4788-a293-8293c1a7a5fb}" />
 	<object class="MixerBusFader" id="{f851b618-406c-493a-9d5a-b8891d9a0142}" />
-	<object class="SpatialiserEffect" id="{b605c4f4-de7c-4b95-b10f-8fe3455ba14c}" />
 	<object class="MixerBusFader" id="{8b676b75-d145-4c9d-878b-df98bf20e19a}" />
 </objects>

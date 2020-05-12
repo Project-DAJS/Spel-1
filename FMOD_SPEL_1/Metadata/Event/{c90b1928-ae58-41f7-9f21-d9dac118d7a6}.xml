@@ -31,6 +31,10 @@
 		<relationship name="timeline">
 			<destination>{9d5c5409-6398-4bb9-81f9-bb3a07f049d6}</destination>
 		</relationship>
+		<relationship name="parameters">
+			<destination>{b783e900-0cd9-404e-b06e-1facd12ef678}</destination>
+			<destination>{e7f93686-3f69-4f28-bdd7-de0a66e7a60c}</destination>
+		</relationship>
 		<relationship name="banks">
 			<destination>{dc10b06d-58ab-4649-94e8-e68bde2bd60a}</destination>
 		</relationship>
@@ -74,6 +78,16 @@
 			<destination>{65e33dc7-59d8-47fa-ae31-0c1a99337f89}</destination>
 		</relationship>
 	</object>
+	<object class="ParameterProxy" id="{b783e900-0cd9-404e-b06e-1facd12ef678}">
+		<relationship name="preset">
+			<destination>{16fd02de-f1e6-4a93-b037-efac97083fb3}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{e7f93686-3f69-4f28-bdd7-de0a66e7a60c}">
+		<relationship name="preset">
+			<destination>{e1d5f4b1-2b92-4a9b-a2ed-b540ca5e5599}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{19229b91-669d-44a8-ac70-3845b1073312}">
 		<relationship name="effectChain">
 			<destination>{613bff09-baeb-4d9c-81f1-b656d53fa294}</destination>
@@ -111,6 +125,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{e733b778-04a8-4c9a-9d29-f13cf6df67af}">
+		<property name="volume">
+			<value>-10</value>
+		</property>
 		<property name="name">
 			<value>Crows</value>
 		</property>
@@ -142,6 +159,7 @@
 		<relationship name="effects">
 			<destination>{904a493a-8b10-4531-9e61-8bb90d1e6185}</destination>
 			<destination>{4492faa7-201d-4b50-8be4-884183c4f02b}</destination>
+			<destination>{be637de8-593b-46e2-acb6-f3ae0ae1e8fd}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{cc0f875b-561d-42db-b566-b7a8f22ab2da}" />
@@ -180,12 +198,23 @@
 	<object class="MixerBusPanner" id="{688ac961-f263-49b4-972d-25ef63b34fa0}" />
 	<object class="MixerBusFader" id="{904a493a-8b10-4531-9e61-8bb90d1e6185}" />
 	<object class="SpatialiserEffect" id="{4492faa7-201d-4b50-8be4-884183c4f02b}">
+		<property name="minimumDistance">
+			<value>0.099999994</value>
+		</property>
 		<property name="maximumDistance">
-			<value>200</value>
+			<value>70</value>
 		</property>
 		<property name="userPanDirection">
 			<value>-180</value>
 		</property>
+	</object>
+	<object class="ProxyEffect" id="{be637de8-593b-46e2-acb6-f3ae0ae1e8fd}">
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="preset">
+			<destination>{6cbc8dd5-2607-40c0-8fc0-b5fe3d5734e2}</destination>
+		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{cc21bff8-ab51-4b42-a958-03cff31e29fa}" />
 </objects>
