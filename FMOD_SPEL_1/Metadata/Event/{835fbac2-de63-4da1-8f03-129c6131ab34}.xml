@@ -284,9 +284,6 @@
 		</relationship>
 	</object>
 	<object class="SpatialiserEffect" id="{c1bdbb33-64d1-4ea6-9d3d-f2dd4db36e4f}">
-		<property name="distanceRolloffType">
-			<value>2</value>
-		</property>
 		<property name="minimumDistance">
 			<value>0.099999994</value>
 		</property>
