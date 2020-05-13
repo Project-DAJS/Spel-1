@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="ParameterPreset" id="{72bec52e-3bea-45e1-8414-af888fd4da9a}">
+	<object class="ParameterPreset" id="{59ba0d6d-7447-4d6a-a7c3-740fea5857c0}">
 		<property name="name">
-			<value>Speed</value>
+			<value>FootstepSpeed</value>
 		</property>
 		<relationship name="folder">
 			<destination>{9c4feed5-e6f2-4e6d-885e-4ae0ffa8673a}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{36835194-b36f-4949-9085-685193016363}</destination>
+			<destination>{c0bcbb87-b7e3-4055-9d25-68d125f82e28}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{36835194-b36f-4949-9085-685193016363}">
+	<object class="GameParameter" id="{c0bcbb87-b7e3-4055-9d25-68d125f82e28}">
 		<property name="maximum">
 			<value>600</value>
 		</property>
@@ -19,10 +19,10 @@
 			<value>0</value>
 		</property>
 		<property name="seekSpeed">
-			<value>110</value>
+			<value>5</value>
 		</property>
-		<property name="seekSpeedDescending">
-			<value>132.00000822544098</value>
+		<property name="seekSpeedAsymmetric">
+			<value>true</value>
 		</property>
 	</object>
 </objects>
