@@ -775,6 +775,7 @@
 	<object class="MixerBusEffectChain" id="{2f782a7a-90ae-4759-b837-e6e2817d6c53}">
 		<relationship name="effects">
 			<destination>{de99c9a0-f478-4314-ad7d-7ae8710eed83}</destination>
+			<destination>{62c24e70-8651-4b71-92be-7c82eac5f366}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{735c4986-5dfe-4d4b-8602-20d1524915b8}">
@@ -1243,6 +1244,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{de99c9a0-f478-4314-ad7d-7ae8710eed83}" />
+	<object class="ThreeEQEffect" id="{62c24e70-8651-4b71-92be-7c82eac5f366}">
+		<property name="highGain">
+			<value>-9</value>
+		</property>
+		<property name="highCrossover">
+			<value>1800</value>
+		</property>
+	</object>
 	<object class="RandomizerModulator" id="{d153812d-776f-48e2-96e8-7d096f97299b}">
 		<property name="nameOfPropertyBeingModulated">
 			<value>surroundPanDirection</value>
