@@ -141,7 +141,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{c1664800-9876-4f84-b573-e52f62d99c44}">
 		<property name="volume">
-			<value>-16</value>
+			<value>-13</value>
 		</property>
 		<property name="name">
 			<value>Birds</value>
@@ -271,6 +271,7 @@
 	<object class="MixerBusEffectChain" id="{2a9de1f6-1809-4edd-8e32-eae69c5405e5}">
 		<relationship name="effects">
 			<destination>{fe96da85-11ea-4b2a-b053-5792d608ff87}</destination>
+			<destination>{6a02449d-db35-4c1c-981a-3b5ea2a8a716}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{38043296-b7c8-455a-b6c3-6e4283a1c7ba}" />
@@ -292,4 +293,12 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{fe96da85-11ea-4b2a-b053-5792d608ff87}" />
+	<object class="MultibandEqEffect" id="{6a02449d-db35-4c1c-981a-3b5ea2a8a716}">
+		<property name="frequencyA">
+			<value>983.313721</value>
+		</property>
+		<property name="qualityA">
+			<value>0.100000001</value>
+		</property>
+	</object>
 </objects>

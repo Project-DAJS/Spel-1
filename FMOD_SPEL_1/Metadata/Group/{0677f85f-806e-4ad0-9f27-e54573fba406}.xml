@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{0677f85f-806e-4ad0-9f27-e54573fba406}">
+		<property name="name">
+			<value>FoliageCollision</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{34b54d6d-0389-4e1a-8e61-d6cca1eb19ac}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{35c86961-d901-4aa8-8aec-fb65c3b61cea}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{2a2f7977-1a86-4e64-b838-79601ed6ece6}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{34b54d6d-0389-4e1a-8e61-d6cca1eb19ac}">
+		<relationship name="effects">
+			<destination>{09127b42-98e3-41bc-b4c6-a6a4346b39d0}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{35c86961-d901-4aa8-8aec-fb65c3b61cea}" />
+	<object class="MixerBusFader" id="{09127b42-98e3-41bc-b4c6-a6a4346b39d0}" />
+</objects>

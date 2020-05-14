@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="ParameterPreset" id="{59ba0d6d-7447-4d6a-a7c3-740fea5857c0}">
+	<object class="ParameterPreset" id="{edffaaaf-22d4-47e1-85ba-5aa9cc632bb8}">
 		<property name="name">
-			<value>FootstepSpeed</value>
+			<value>IsInBush</value>
 		</property>
 		<relationship name="folder">
 			<destination>{9c4feed5-e6f2-4e6d-885e-4ae0ffa8673a}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{c0bcbb87-b7e3-4055-9d25-68d125f82e28}</destination>
+			<destination>{0209ba0a-3428-4fb1-a36c-89a8874469e4}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{c0bcbb87-b7e3-4055-9d25-68d125f82e28}">
-		<property name="maximum">
-			<value>600</value>
-		</property>
+	<object class="GameParameter" id="{0209ba0a-3428-4fb1-a36c-89a8874469e4}">
 		<property name="initialValue">
 			<value>0</value>
 		</property>
+		<property name="seekSpeed">
+			<value>0.87000006437301636</value>
+		</property>
 		<property name="seekSpeedDescending">
-			<value>445</value>
+			<value>0.26000002026557922</value>
 		</property>
 		<property name="seekSpeedAsymmetric">
 			<value>true</value>

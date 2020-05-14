@@ -36,6 +36,7 @@
 			<destination>{c571190c-99f0-4779-8922-399c67d602a5}</destination>
 			<destination>{9b2358a5-d31d-4c06-b67a-af5bd4b29efe}</destination>
 			<destination>{b66cc283-b5a6-47fd-843b-3b16d0bb96f3}</destination>
+			<destination>{e682e82e-1650-4bec-a248-88afaff7fdd0}</destination>
 		</relationship>
 		<relationship name="banks">
 			<destination>{d0db27bc-b4e0-47f6-8671-0544bed5aedf}</destination>
@@ -50,6 +51,8 @@
 		<relationship name="automationTracks">
 			<destination>{3994c455-b6f2-4146-98f8-b3ef3c47f249}</destination>
 			<destination>{263c245f-a48a-4123-8164-95604b56e77c}</destination>
+			<destination>{05f8e3f1-7832-41e8-a9a6-de24bc23f13c}</destination>
+			<destination>{c17a4f86-332d-473c-b2ce-9502ac333cdb}</destination>
 		</relationship>
 		<relationship name="modules">
 			<destination>{7b309955-fbd8-4952-ac4a-e641c929adcf}</destination>
@@ -110,6 +113,11 @@
 			<destination>{16fd02de-f1e6-4a93-b037-efac97083fb3}</destination>
 		</relationship>
 	</object>
+	<object class="ParameterProxy" id="{e682e82e-1650-4bec-a248-88afaff7fdd0}">
+		<relationship name="preset">
+			<destination>{5444a22d-7a1b-468d-bdda-b3c138691e20}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerMaster" id="{fcd63494-af4c-4757-a749-fd62393de47f}">
 		<property name="volume">
 			<value>-12</value>
@@ -132,6 +140,16 @@
 	<object class="AutomationTrack" id="{263c245f-a48a-4123-8164-95604b56e77c}">
 		<relationship name="automator">
 			<destination>{c7064866-3bc2-4977-8c38-85e4f55fa231}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationTrack" id="{05f8e3f1-7832-41e8-a9a6-de24bc23f13c}">
+		<relationship name="automator">
+			<destination>{bc8cbe81-279c-48a1-aad0-acd7b63c57b3}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationTrack" id="{c17a4f86-332d-473c-b2ce-9502ac333cdb}">
+		<relationship name="automator">
+			<destination>{0ceaf5a9-e87d-4dfa-96d5-6d3aadf47e3a}</destination>
 		</relationship>
 	</object>
 	<object class="TransitionSourceSound" id="{7b309955-fbd8-4952-ac4a-e641c929adcf}">
@@ -261,6 +279,7 @@
 			<destination>{ce8cfbec-f1b4-490c-8a0e-d7c784cfc1d4}</destination>
 			<destination>{ec3f6513-c203-4cc2-abbe-b8abcdd54420}</destination>
 			<destination>{0dd9e5ce-918b-41f6-ae1f-0fe57ecc7ae8}</destination>
+			<destination>{9ce32ea8-8080-47b2-926e-ff9347c99a50}</destination>
 			<destination>{a49e950f-00d9-4d44-b7bb-2735aced6d5c}</destination>
 		</relationship>
 	</object>
@@ -325,6 +344,14 @@
 	<object class="MultibandEqEffect" id="{0dd9e5ce-918b-41f6-ae1f-0fe57ecc7ae8}">
 		<relationship name="automators">
 			<destination>{c7064866-3bc2-4977-8c38-85e4f55fa231}</destination>
+		</relationship>
+	</object>
+	<object class="ProxyEffect" id="{9ce32ea8-8080-47b2-926e-ff9347c99a50}">
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="preset">
+			<destination>{82160284-cb2b-42a5-9733-3ad867b13439}</destination>
 		</relationship>
 	</object>
 	<object class="SpatialiserEffect" id="{a49e950f-00d9-4d44-b7bb-2735aced6d5c}">

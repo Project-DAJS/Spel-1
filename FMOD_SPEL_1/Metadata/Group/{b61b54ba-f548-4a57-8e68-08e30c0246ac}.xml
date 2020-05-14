@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="MixerGroup" id="{b61b54ba-f548-4a57-8e68-08e30c0246ac}">
+		<property name="name">
+			<value>SmallRobotVoice</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{7fc4f175-8589-421e-884c-c98ac1d15b06}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{53e7065e-c094-492e-9e31-292df551dcd2}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{2a2f7977-1a86-4e64-b838-79601ed6ece6}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{7fc4f175-8589-421e-884c-c98ac1d15b06}">
+		<relationship name="effects">
+			<destination>{e10897db-70c5-405c-b54b-76af7db5fbcb}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{53e7065e-c094-492e-9e31-292df551dcd2}" />
+	<object class="MixerBusFader" id="{e10897db-70c5-405c-b54b-76af7db5fbcb}" />
+</objects>
