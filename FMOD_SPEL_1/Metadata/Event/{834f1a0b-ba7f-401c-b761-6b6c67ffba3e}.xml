@@ -5,7 +5,7 @@
 			<value>WhoopsieIDied</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{1fbee497-0d95-402f-8fc4-17dbe419b033}</destination>
@@ -102,7 +102,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{646ddb53-f6b1-4788-9e50-b58ad24ac219}">
 		<property name="volume">
-			<value>-6</value>
+			<value>-12.5</value>
 		</property>
 		<property name="name">
 			<value>Whoops</value>
@@ -120,7 +120,7 @@
 	<object class="MixerBusEffectChain" id="{83debab2-b88c-4833-adde-bf3b28644acc}">
 		<relationship name="effects">
 			<destination>{6603d831-caaa-4230-a08e-e94f376218cb}</destination>
-			<destination>{4ca76cb0-74a5-4466-ba33-4459046a0381}</destination>
+			<destination>{8e1ba9d9-b55a-4c79-9847-dcf04b536397}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5f2b3cff-161e-4656-89bd-45c45b44a3e8}" />
@@ -148,6 +148,19 @@
 	</object>
 	<object class="MixerBusPanner" id="{d144b31a-6a35-4d0d-9b76-b42bd7adfd37}" />
 	<object class="MixerBusFader" id="{6603d831-caaa-4230-a08e-e94f376218cb}" />
-	<object class="SpatialiserEffect" id="{4ca76cb0-74a5-4466-ba33-4459046a0381}" />
+	<object class="ThreeEQEffect" id="{8e1ba9d9-b55a-4c79-9847-dcf04b536397}">
+		<property name="lowGain">
+			<value>-11</value>
+		</property>
+		<property name="highGain">
+			<value>-19.5</value>
+		</property>
+		<property name="lowCrossover">
+			<value>280</value>
+		</property>
+		<property name="highCrossover">
+			<value>1900</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{2681173a-216f-440e-9509-e9721f416db8}" />
 </objects>

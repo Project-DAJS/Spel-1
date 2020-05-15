@@ -203,6 +203,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{c8b9f022-2663-4ba1-8042-2c19c6973e52}">
+		<property name="volume">
+			<value>-17.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{7c6bccbc-2360-40a5-b322-db13b6d39bee}</destination>
 		</relationship>
@@ -603,7 +606,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{4b1c5c11-f869-470d-aa1e-6bc935946837}">
 		<property name="volume">
-			<value>-12</value>
+			<value>-15.5</value>
 		</property>
 		<property name="name">
 			<value>LoopSqueak</value>
@@ -884,6 +887,7 @@
 	<object class="MixerBusEffectChain" id="{539e5f43-1fb6-4134-aec2-a771e23e2465}">
 		<relationship name="effects">
 			<destination>{24f79b74-9f62-4aec-9ab2-9941168bc5c7}</destination>
+			<destination>{de61e435-fcea-4017-a012-abeb676840bd}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c85af955-32c7-45e1-a44b-f7084ffa5095}" />
@@ -1008,7 +1012,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{38b40a80-b056-457e-96fe-c7cf2859d6b7}" />
-	<object class="SpatialiserEffect" id="{2ab1a77f-ca28-4027-8bde-2c983e112833}" />
+	<object class="SpatialiserEffect" id="{2ab1a77f-ca28-4027-8bde-2c983e112833}">
+		<property name="minimumDistance">
+			<value>0.49999997</value>
+		</property>
+		<property name="maximumDistance">
+			<value>10</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{39a8a1af-c8a7-4fab-9ac2-fcb7aba3eba3}" />
 	<object class="AutomationPoint" id="{3572a876-37bb-4a0b-9d83-13ab5f7b11e4}">
 		<property name="position">
@@ -1148,6 +1159,23 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{24f79b74-9f62-4aec-9ab2-9941168bc5c7}" />
+	<object class="ThreeEQEffect" id="{de61e435-fcea-4017-a012-abeb676840bd}">
+		<property name="lowGain">
+			<value>-7.5</value>
+		</property>
+		<property name="midGain">
+			<value>-26</value>
+		</property>
+		<property name="highGain">
+			<value>-28.5</value>
+		</property>
+		<property name="lowCrossover">
+			<value>750</value>
+		</property>
+		<property name="highCrossover">
+			<value>1350</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{4ab4be4d-0b6f-4c40-be8f-4d644e11f781}">
 		<property name="position">
 			<value>7.8000000000000034</value>
