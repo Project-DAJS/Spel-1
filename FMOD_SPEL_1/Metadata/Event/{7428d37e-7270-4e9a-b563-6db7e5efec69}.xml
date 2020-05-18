@@ -53,7 +53,7 @@
 			<destination>{bd45194f-3a30-4cf4-a247-6ce7e9e208e9}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{b84c56a0-1c1b-48bf-a1ba-61c61bf134a7}</destination>
+			<destination>{949fb8d5-872f-4f1a-9992-106052f2a503}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{d01f4a8d-2c54-4b9a-982d-906a4f3badf8}" />
@@ -232,7 +232,7 @@
 	<object class="MixerBusFader" id="{fab8cd8c-dbb8-40eb-8d9d-b793dacfb9fc}" />
 	<object class="ThreeEQEffect" id="{cab91ca8-0b4c-4052-b8bf-1a45532267da}">
 		<property name="lowGain">
-			<value>-27.5</value>
+			<value>-19.5</value>
 		</property>
 		<property name="midGain">
 			<value>-2</value>
