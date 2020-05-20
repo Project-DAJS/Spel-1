@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="ParameterPreset" id="{6e184cab-2ef9-4584-9746-77d932352bd8}">
 		<property name="name">
-			<value>Material</value>
+			<value>BoxMaterial</value>
 		</property>
 		<relationship name="folder">
 			<destination>{9c4feed5-e6f2-4e6d-885e-4ae0ffa8673a}</destination>
@@ -15,14 +15,8 @@
 		<property name="maximum">
 			<value>11</value>
 		</property>
-		<property name="isGlobal">
-			<value>true</value>
-		</property>
 		<property name="initialValue">
 			<value>0</value>
-		</property>
-		<property name="isExposedRecursively">
-			<value>false</value>
 		</property>
 		<relationship name="automators">
 			<destination>{85d75f14-0729-4845-914b-c5a0c4e05c9c}</destination>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{b3229ed9-f1e3-4043-b32e-c5e21d9d24dc}">
+		<property name="name">
+			<value>IsPushingTruck</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9c4feed5-e6f2-4e6d-885e-4ae0ffa8673a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{22b21b9e-8398-4e95-8cd4-75db86531b14}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{22b21b9e-8398-4e95-8cd4-75db86531b14}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
