@@ -23,7 +23,6 @@
 			<destination>{70249f25-71a3-4cd4-b620-514e29b3b2c9}</destination>
 		</relationship>
 		<relationship name="snapshotProperties">
-			<destination>{93ac2499-63b6-4684-94bd-99734e8f141b}</destination>
 			<destination>{1505f2f6-e762-4104-834c-c015287bce9c}</destination>
 			<destination>{ffa43835-cbac-4903-8105-408821a7f1ee}</destination>
 			<destination>{0b44e952-6049-4325-a8ab-816ec0e96789}</destination>
@@ -38,7 +37,6 @@
 			<destination>{f7519826-7876-4749-86d8-dbdd2e9a478e}</destination>
 		</relationship>
 		<relationship name="snapshotTracks">
-			<destination>{5abbfb77-0e9d-402f-8c82-1cefcc5fa0d5}</destination>
 			<destination>{239e0d45-17e5-4868-a086-80ce7466638d}</destination>
 			<destination>{493d5b98-5f6a-4328-9a62-6e5e11d658dc}</destination>
 			<destination>{219146df-9845-4ac0-a6d7-f84c3bb90216}</destination>
@@ -51,17 +49,6 @@
 	<object class="MarkerTrack" id="{2c61d5ba-f3df-4042-bde8-3a9d2592fe3e}" />
 	<object class="Timeline" id="{046cbcc0-21f3-410a-a563-c25f80cf6439}" />
 	<object class="SnapshotMasterTrack" id="{70249f25-71a3-4cd4-b620-514e29b3b2c9}" />
-	<object class="SnapshotProperty" id="{93ac2499-63b6-4684-94bd-99734e8f141b}">
-		<property name="propertyName">
-			<value>volume</value>
-		</property>
-		<property name="value">
-			<value>0</value>
-		</property>
-		<relationship name="automatableObject">
-			<destination>{b84c56a0-1c1b-48bf-a1ba-61c61bf134a7}</destination>
-		</relationship>
-	</object>
 	<object class="SnapshotProperty" id="{1505f2f6-e762-4104-834c-c015287bce9c}">
 		<property name="propertyName">
 			<value>volume</value>
@@ -192,11 +179,6 @@
 		</property>
 		<relationship name="automatableObject">
 			<destination>{73f53224-6c96-4137-a661-b1400c03019b}</destination>
-		</relationship>
-	</object>
-	<object class="SnapshotTrack" id="{5abbfb77-0e9d-402f-8c82-1cefcc5fa0d5}">
-		<relationship name="mixerStrip">
-			<destination>{b84c56a0-1c1b-48bf-a1ba-61c61bf134a7}</destination>
 		</relationship>
 	</object>
 	<object class="SnapshotTrack" id="{239e0d45-17e5-4868-a086-80ce7466638d}">

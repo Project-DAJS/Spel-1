@@ -5,7 +5,7 @@
 			<value>FoliageCollisionBig</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>5</value>
 		</property>
 		<relationship name="folder">
 			<destination>{e04c5af4-e8a0-4694-a3b7-4d9681cacfa1}</destination>
@@ -114,6 +114,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{67a97e4c-056b-48f8-afaf-77ea822676a4}">
+		<property name="volume">
+			<value>-5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{cba09818-44be-4735-ae3e-dced9253dba1}</destination>
 		</relationship>
@@ -177,7 +180,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{89575c07-b46d-4efa-ad26-ddec5ca024ef}">
 		<property name="volume">
-			<value>-3.5</value>
+			<value>-15</value>
 		</property>
 		<property name="name">
 			<value>Foliage</value>
@@ -213,7 +216,7 @@
 			<value>0.84999999999999964</value>
 		</property>
 		<property name="volume">
-			<value>9</value>
+			<value>-4</value>
 		</property>
 		<relationship name="fadeOutCurve">
 			<destination>{3e18068f-39eb-48ee-9d85-fb0862477195}</destination>
@@ -231,7 +234,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{49b4f6ca-ecae-4e09-81b4-a3a27e402a78}">
 		<property name="volume">
-			<value>-14.5</value>
+			<value>-10.5</value>
 		</property>
 		<property name="name">
 			<value>Foliage Exit</value>
@@ -248,10 +251,10 @@
 	</object>
 	<object class="TransitionRegion" id="{13e3b52a-480b-4082-87cb-035eb9c364c8}">
 		<property name="position">
-			<value>0</value>
+			<value>0.10000000000000001</value>
 		</property>
 		<property name="length">
-			<value>1.3500000000000001</value>
+			<value>1.25</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{dae5be08-a2e3-4f1f-be00-933478828f64}</destination>
@@ -340,6 +343,7 @@
 		<relationship name="effects">
 			<destination>{660098a5-12a1-437b-8561-cacc5c37cbe9}</destination>
 			<destination>{18f40bf0-2395-4ae7-a9fd-9c5568a24442}</destination>
+			<destination>{cbe0f2e6-0392-4743-ad4b-01bc56edb32c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{f175b08c-c58d-44f4-8a5f-c39119867135}" />
@@ -394,6 +398,7 @@
 	<object class="MixerBusEffectChain" id="{b059988e-9f3e-4ed6-82b1-1f5da739102d}">
 		<relationship name="effects">
 			<destination>{1a02b2f5-e59e-46d0-82cb-d480f546e770}</destination>
+			<destination>{4ebac12f-5a4c-4526-ae1d-1150fa7f8677}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b52c2ed2-d3b8-423a-abe5-4bc63b1c5c4a}" />
@@ -489,7 +494,7 @@
 	</object>
 	<object class="AutomationPoint" id="{25b1e873-54a8-4b34-87e8-fddf010b9ce3}">
 		<property name="position">
-			<value>0.40000000000000002</value>
+			<value>0.60000000000000009</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -501,6 +506,26 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{18f40bf0-2395-4ae7-a9fd-9c5568a24442}" />
+	<object class="MultibandEqEffect" id="{cbe0f2e6-0392-4743-ad4b-01bc56edb32c}">
+		<property name="filterTypeB">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>18639.6113</value>
+		</property>
+		<property name="frequencyB">
+			<value>195.358505</value>
+		</property>
+		<property name="qualityA">
+			<value>0.372103453</value>
+		</property>
+		<property name="qualityB">
+			<value>0.199999988</value>
+		</property>
+		<property name="gainB">
+			<value>-21.2068958</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{05a76aec-1e7e-48e1-850b-e775903d8318}">
 		<property name="position">
 			<value>2.3500000000000001</value>
@@ -521,6 +546,35 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{1a02b2f5-e59e-46d0-82cb-d480f546e770}" />
+	<object class="MultibandEqEffect" id="{4ebac12f-5a4c-4526-ae1d-1150fa7f8677}">
+		<property name="filterTypeB">
+			<value>9</value>
+		</property>
+		<property name="filterTypeC">
+			<value>9</value>
+		</property>
+		<property name="frequencyA">
+			<value>21999.9902</value>
+		</property>
+		<property name="frequencyB">
+			<value>221.218552</value>
+		</property>
+		<property name="frequencyC">
+			<value>1184.88428</value>
+		</property>
+		<property name="qualityA">
+			<value>0.351172417</value>
+		</property>
+		<property name="qualityC">
+			<value>2.49999976</value>
+		</property>
+		<property name="gainB">
+			<value>-0.517240524</value>
+		</property>
+		<property name="gainC">
+			<value>-12.931036</value>
+		</property>
+	</object>
 	<object class="Automator" id="{5c2b0fbb-70b9-4ab0-867d-7fd9fd050dcc}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>gain</value>

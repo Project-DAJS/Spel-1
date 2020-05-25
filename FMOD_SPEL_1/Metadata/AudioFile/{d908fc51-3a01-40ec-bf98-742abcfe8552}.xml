@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="AudioFile" id="{fe10637f-6931-4b8a-a3a4-2ca407173480}">
+	<object class="AudioFile" id="{d908fc51-3a01-40ec-bf98-742abcfe8552}">
 		<property name="assetPath">
-			<value>Character SFX/Big Robot/AnimationSounds/BigRobot_BatteryChange.wav</value>
+			<value>Character SFX/Big Robot/AnimationSounds/BigRobot_PickUpBox.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1.7891874999999999</value>
+			<value>0.75285416666666671</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{901c69ff-b09e-4fb8-b7d9-d97094e64553}</destination>
