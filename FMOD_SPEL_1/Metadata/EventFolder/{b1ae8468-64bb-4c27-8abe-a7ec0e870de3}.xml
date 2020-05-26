@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EventFolder" id="{b1ae8468-64bb-4c27-8abe-a7ec0e870de3}">
+		<property name="name">
+			<value>BatteryChange</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e9c05bc9-1bba-4e26-b778-99ca366d263c}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{7a409e3a-254b-4897-91de-4c62ab4d2755}">
 		<property name="name">
-			<value>BatteryChange</value>
+			<value>BigBatteryChange</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
 		</property>
 		<relationship name="folder">
-			<destination>{e9c05bc9-1bba-4e26-b778-99ca366d263c}</destination>
+			<destination>{b1ae8468-64bb-4c27-8abe-a7ec0e870de3}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{77aa21a7-3ae8-4d8e-bff1-a24d8cceda5a}</destination>
@@ -93,7 +93,7 @@
 	<object class="MixerBusPanner" id="{fea386bb-6592-4695-9199-400280b12a97}" />
 	<object class="SingleSound" id="{cc11eec0-7191-43dc-b8ec-65416b5790b5}">
 		<property name="length">
-			<value>1.7891874999999999</value>
+			<value>0.52537184677750404</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{fe10637f-6931-4b8a-a3a4-2ca407173480}</destination>
