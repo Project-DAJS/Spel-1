@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{45a67506-0811-41f6-8e22-ac0c67d024ba}">
+		<property name="name">
+			<value>CinAmbLevel</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9c4feed5-e6f2-4e6d-885e-4ae0ffa8673a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{c52f4e91-434e-41dc-b99c-92458da268b6}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{c52f4e91-434e-41dc-b99c-92458da268b6}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

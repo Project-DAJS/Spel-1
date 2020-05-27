@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{61e51544-d944-40d8-a2b9-6d2d287e12fc}">
 		<property name="name">
-			<value>ArmsMovement</value>
+			<value>ArmsMovement1</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -53,7 +53,7 @@
 			<destination>{1e98d9d4-b3df-4eb0-8427-2e2acd1a1916}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{b84c56a0-1c1b-48bf-a1ba-61c61bf134a7}</destination>
+			<destination>{02ad9b0c-166d-4d5e-b71d-55a947d10543}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{fa436b4f-c832-4f53-8021-a351bf1ed7ae}" />
@@ -99,6 +99,7 @@
 		<relationship name="effects">
 			<destination>{102cd414-4b87-41c9-bf74-eabfbacbf4f7}</destination>
 			<destination>{b1e8abf8-5f5b-4d96-8c05-cfbf8141af5b}</destination>
+			<destination>{1aea38f8-db6d-42aa-b7eb-f7442d1d27c3}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{bc4c488d-fd7e-4547-8e9d-b18a9d23c03a}" />
@@ -111,5 +112,16 @@
 	<object class="MixerBusPanner" id="{bb722e44-ae45-41b5-96c7-9bd68e8fa21d}" />
 	<object class="MixerBusFader" id="{102cd414-4b87-41c9-bf74-eabfbacbf4f7}" />
 	<object class="SpatialiserEffect" id="{b1e8abf8-5f5b-4d96-8c05-cfbf8141af5b}" />
+	<object class="MixerSend" id="{1aea38f8-db6d-42aa-b7eb-f7442d1d27c3}">
+		<property name="level">
+			<value>-12.5</value>
+		</property>
+		<property name="inputFormat">
+			<value>2</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{4fc1ebe8-1a96-4ee9-9bd3-fc32e6fd406d}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{6ab754d4-7e99-434f-914c-a27faa6d29d1}" />
 </objects>

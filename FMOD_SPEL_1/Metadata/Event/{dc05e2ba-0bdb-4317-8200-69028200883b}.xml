@@ -5,7 +5,7 @@
 			<value>SmallPowerDown</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{2f29d27b-f77a-4527-8d84-a9bac23373b6}</destination>
@@ -53,7 +53,7 @@
 			<destination>{a7a073d8-56cc-49c6-a3e3-52ed6fbe8256}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{b84c56a0-1c1b-48bf-a1ba-61c61bf134a7}</destination>
+			<destination>{02ad9b0c-166d-4d5e-b71d-55a947d10543}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{e40ce6e2-0b3e-4ce7-9be4-21c53d78f628}" />
@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{2b8aefa2-6e68-4d46-ab84-249559bb9704}">
+		<property name="volume">
+			<value>-26.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{a2be305e-0e19-458c-bc1d-4b7e0e6c1031}</destination>
 		</relationship>
@@ -98,7 +101,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{6d902fc1-5949-4037-8999-5cf3c5ee12ff}">
 		<property name="volume">
-			<value>-14.5</value>
+			<value>-20</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -116,7 +119,6 @@
 	<object class="MixerBusEffectChain" id="{a2be305e-0e19-458c-bc1d-4b7e0e6c1031}">
 		<relationship name="effects">
 			<destination>{fec4e62d-7bfd-46ac-89a5-3a4a3dec9757}</destination>
-			<destination>{6ffe160c-d15a-4f3d-91a0-a085f964bcb6}</destination>
 			<destination>{7ca0b799-c07d-4a4c-b0b5-3bfe10ed0ae9}</destination>
 		</relationship>
 	</object>
@@ -129,17 +131,12 @@
 	</object>
 	<object class="MixerBusPanner" id="{bbe3da6b-3d4c-4423-84ee-2194998c35aa}" />
 	<object class="MixerBusFader" id="{fec4e62d-7bfd-46ac-89a5-3a4a3dec9757}" />
-	<object class="SpatialiserEffect" id="{6ffe160c-d15a-4f3d-91a0-a085f964bcb6}">
-		<property name="extentMode">
-			<value>1</value>
-		</property>
-	</object>
 	<object class="MixerSend" id="{7ca0b799-c07d-4a4c-b0b5-3bfe10ed0ae9}">
 		<property name="level">
-			<value>-13</value>
+			<value>-11</value>
 		</property>
 		<property name="inputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="mixerReturn">
 			<destination>{4fc1ebe8-1a96-4ee9-9bd3-fc32e6fd406d}</destination>

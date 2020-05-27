@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{6215b367-88f9-4e24-8587-abd8f7027e8e}">
+		<property name="name">
+			<value>CinStepsLevel</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9c4feed5-e6f2-4e6d-885e-4ae0ffa8673a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{96a7e536-cd70-4a03-b292-673d560e5a2b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{96a7e536-cd70-4a03-b292-673d560e5a2b}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

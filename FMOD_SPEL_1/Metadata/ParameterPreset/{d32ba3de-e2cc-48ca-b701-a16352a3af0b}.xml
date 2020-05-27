@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{d32ba3de-e2cc-48ca-b701-a16352a3af0b}">
+		<property name="name">
+			<value>SwitchRobot</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9c4feed5-e6f2-4e6d-885e-4ae0ffa8673a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{409ff05c-176d-4adf-b135-3b9107f28f22}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{409ff05c-176d-4adf-b135-3b9107f28f22}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>1</value>
+		</property>
+		<property name="seekSpeed">
+			<value>1.0999999046325684</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

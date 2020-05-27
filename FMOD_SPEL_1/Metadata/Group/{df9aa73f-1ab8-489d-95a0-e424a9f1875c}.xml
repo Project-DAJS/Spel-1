@@ -23,6 +23,7 @@
 			<destination>{5dfd7e5c-7a5e-4ccc-8bc9-f8de3bead0b8}</destination>
 			<destination>{27d4e82a-8cee-452b-88e5-fd62aab3b409}</destination>
 			<destination>{5f3d2a57-a5f1-4d27-b6bf-8c0f09126a02}</destination>
+			<destination>{8efcd381-30dc-4fe2-a7f9-84a83d1a4661}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c3310750-13c4-4676-81c4-16da777c1ad0}" />
@@ -50,5 +51,46 @@
 		<relationship name="mixerReturn">
 			<destination>{e50cb4d9-1303-4ee8-b386-0207c2ef30af}</destination>
 		</relationship>
+	</object>
+	<object class="GainEffect" id="{8efcd381-30dc-4fe2-a7f9-84a83d1a4661}">
+		<relationship name="automators">
+			<destination>{3e604c96-5ede-4100-bb8e-28b3b33b7981}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{3e604c96-5ede-4100-bb8e-28b3b33b7981}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>gain</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{11fc7d53-48f0-45c9-9097-64b293f3dac6}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{11fc7d53-48f0-45c9-9097-64b293f3dac6}">
+		<relationship name="parameter">
+			<destination>{409ff05c-176d-4adf-b135-3b9107f28f22}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{ebb2bb2c-5836-4a43-9d24-d491742af029}</destination>
+			<destination>{977fae5d-c4a8-4cb0-b94e-127c0249e359}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{ebb2bb2c-5836-4a43-9d24-d491742af029}">
+		<property name="position">
+			<value>0.0042372881355932203</value>
+		</property>
+		<property name="value">
+			<value>-80</value>
+		</property>
+		<property name="curveShape">
+			<value>0.47206232</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{977fae5d-c4a8-4cb0-b94e-127c0249e359}">
+		<property name="position">
+			<value>0.98728813559322037</value>
+		</property>
+		<property name="value">
+			<value>3.81469727e-06</value>
+		</property>
 	</object>
 </objects>

@@ -5,7 +5,7 @@
 			<value>GiveBattery</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="folder">
 			<destination>{2f29d27b-f77a-4527-8d84-a9bac23373b6}</destination>
@@ -57,7 +57,7 @@
 			<destination>{506cefbe-01e2-4e31-8cca-d2a300face6d}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{b84c56a0-1c1b-48bf-a1ba-61c61bf134a7}</destination>
+			<destination>{02ad9b0c-166d-4d5e-b71d-55a947d10543}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{f1e65933-3ba2-4768-b285-38cb5e89f2e8}" />
@@ -340,7 +340,6 @@
 	<object class="MixerBusEffectChain" id="{6efa58e7-4c92-4028-8b97-1a87be9227a6}">
 		<relationship name="effects">
 			<destination>{070aaa50-55d7-4b58-936f-0610a1a3827c}</destination>
-			<destination>{b5dc6dab-aaaf-448d-ae67-15fa0e2665cc}</destination>
 			<destination>{acea3b0e-c992-4b27-bcbd-f18526189623}</destination>
 		</relationship>
 	</object>
@@ -425,13 +424,12 @@
 	</object>
 	<object class="MixerBusPanner" id="{5d3cdeb5-6737-42b7-8af8-d03a5a59dbb8}" />
 	<object class="MixerBusFader" id="{070aaa50-55d7-4b58-936f-0610a1a3827c}" />
-	<object class="SpatialiserEffect" id="{b5dc6dab-aaaf-448d-ae67-15fa0e2665cc}" />
 	<object class="MixerSend" id="{acea3b0e-c992-4b27-bcbd-f18526189623}">
 		<property name="level">
 			<value>-11</value>
 		</property>
 		<property name="inputFormat">
-			<value>2</value>
+			<value>0</value>
 		</property>
 		<relationship name="mixerReturn">
 			<destination>{4fc1ebe8-1a96-4ee9-9bd3-fc32e6fd406d}</destination>
