@@ -101,7 +101,7 @@
 	</object>
 	<object class="EventMixerMaster" id="{b4cb0f13-8de7-4ea0-be9c-4a7136d9b272}">
 		<property name="volume">
-			<value>-18</value>
+			<value>-28</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{de4ed31d-929f-4a54-ac32-704fd50a71df}</destination>
@@ -196,7 +196,7 @@
 	</object>
 	<object class="SingleSound" id="{4a32b300-1ab8-47e9-ac68-23be6ab15cc5}">
 		<property name="start">
-			<value>13</value>
+			<value>12.800000000000001</value>
 		</property>
 		<property name="timelockedOffset">
 			<value>3.8840398491635297</value>
@@ -422,7 +422,7 @@
 	<object class="MixerBusFader" id="{bac746d2-fecd-48a9-9daf-814dd03fb32e}" />
 	<object class="AutomationPoint" id="{881b70f8-5987-4e97-834e-56f8d97b0339}">
 		<property name="position">
-			<value>13</value>
+			<value>13.4</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -433,7 +433,7 @@
 	</object>
 	<object class="AutomationPoint" id="{0dd183e2-366a-4dc8-b4e5-0847432c70c3}">
 		<property name="position">
-			<value>14</value>
+			<value>13.800000000000001</value>
 		</property>
 		<property name="value">
 			<value>0</value>
