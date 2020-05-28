@@ -35,5 +35,44 @@
 		<property name="qualityA">
 			<value>0.476758599</value>
 		</property>
+		<relationship name="automators">
+			<destination>{dd77ad2a-a1ac-44f9-b3d0-ee2cf66c3f38}</destination>
+		</relationship>
+	</object>
+	<object class="Automator" id="{dd77ad2a-a1ac-44f9-b3d0-ee2cf66c3f38}">
+		<property name="nameOfPropertyBeingAutomated">
+			<value>frequencyA</value>
+		</property>
+		<relationship name="automationCurves">
+			<destination>{ca84804d-3623-45cd-a823-e57402aaa0aa}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationCurve" id="{ca84804d-3623-45cd-a823-e57402aaa0aa}">
+		<relationship name="parameter">
+			<destination>{445e0a6c-8441-4442-a856-a78c7268876b}</destination>
+		</relationship>
+		<relationship name="automationPoints">
+			<destination>{ebe49868-a2b5-4631-9732-76879f3294b0}</destination>
+			<destination>{414a140f-5152-439b-8649-441004760c8d}</destination>
+		</relationship>
+	</object>
+	<object class="AutomationPoint" id="{ebe49868-a2b5-4631-9732-76879f3294b0}">
+		<property name="position">
+			<value>0.015536723163841807</value>
+		</property>
+		<property name="value">
+			<value>21999.9805</value>
+		</property>
+		<property name="curveShape">
+			<value>0.191364467</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{414a140f-5152-439b-8649-441004760c8d}">
+		<property name="position">
+			<value>1</value>
+		</property>
+		<property name="value">
+			<value>4000</value>
+		</property>
 	</object>
 </objects>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{295761ef-52e1-404f-bdb0-fc9dbb4825c9}">
+		<property name="name">
+			<value>IsPaused</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9c4feed5-e6f2-4e6d-885e-4ae0ffa8673a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{445e0a6c-8441-4442-a856-a78c7268876b}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{445e0a6c-8441-4442-a856-a78c7268876b}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.99000006914138794</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
+		</property>
+	</object>
+</objects>

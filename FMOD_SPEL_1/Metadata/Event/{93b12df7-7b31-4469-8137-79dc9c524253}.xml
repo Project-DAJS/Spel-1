@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="Event" id="{93b12df7-7b31-4469-8137-79dc9c524253}">
 		<property name="name">
-			<value>HandClick</value>
+			<value>HandClick1</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
@@ -116,6 +116,7 @@
 	<object class="MixerBusEffectChain" id="{8f32514b-28ad-4cf2-97ec-508764c9c0ba}">
 		<relationship name="effects">
 			<destination>{892e209d-4d59-4c47-8df1-cbdc85322c6b}</destination>
+			<destination>{9e3fe986-e05e-4df2-99fc-f32f7aaf8ab7}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6ff63d19-f174-4e83-b469-8beb93280bba}" />
@@ -127,5 +128,16 @@
 	</object>
 	<object class="MixerBusPanner" id="{a15aed2a-985f-4a4d-9a12-1f6e1b6c68d8}" />
 	<object class="MixerBusFader" id="{892e209d-4d59-4c47-8df1-cbdc85322c6b}" />
+	<object class="MixerSend" id="{9e3fe986-e05e-4df2-99fc-f32f7aaf8ab7}">
+		<property name="level">
+			<value>-11</value>
+		</property>
+		<property name="inputFormat">
+			<value>0</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{4fc1ebe8-1a96-4ee9-9bd3-fc32e6fd406d}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{f8354a79-5f45-46ea-8ca5-8c104528a1ed}" />
 </objects>

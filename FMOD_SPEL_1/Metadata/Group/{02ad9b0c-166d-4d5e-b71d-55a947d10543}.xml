@@ -4,6 +4,9 @@
 		<property name="name">
 			<value>Cinematic</value>
 		</property>
+		<property name="pitch">
+			<value>-0.900000036</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{741ea1b7-6602-4cdf-9250-300cbd55a736}</destination>
 		</relationship>
@@ -16,9 +19,15 @@
 	</object>
 	<object class="MixerBusEffectChain" id="{741ea1b7-6602-4cdf-9250-300cbd55a736}">
 		<relationship name="effects">
+			<destination>{042b5e77-d4ef-43c0-8528-8eb191d62351}</destination>
 			<destination>{591c7446-232f-478f-bcee-edc1df878a21}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{aa8d754e-8e9e-4535-a76c-19779f6ce9c2}" />
+	<object class="GainEffect" id="{042b5e77-d4ef-43c0-8528-8eb191d62351}">
+		<property name="gain">
+			<value>5</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{591c7446-232f-478f-bcee-edc1df878a21}" />
 </objects>
