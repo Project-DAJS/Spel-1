@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="EventFolder" id="{fb9f5671-a43e-42e0-80d9-b844711f7ad9}">
+		<property name="name">
+			<value>HookSwaying</value>
+		</property>
+		<relationship name="folder">
+			<destination>{e04c5af4-e8a0-4694-a3b7-4d9681cacfa1}</destination>
+		</relationship>
+	</object>
+</objects>
