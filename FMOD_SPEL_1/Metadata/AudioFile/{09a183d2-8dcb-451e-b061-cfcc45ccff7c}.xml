@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{09a183d2-8dcb-451e-b061-cfcc45ccff7c}">
+		<property name="assetPath">
+			<value>Spel 1 puzzel 4 waves.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>32</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{901c69ff-b09e-4fb8-b7d9-d97094e64553}</destination>
+		</relationship>
+	</object>
+</objects>
