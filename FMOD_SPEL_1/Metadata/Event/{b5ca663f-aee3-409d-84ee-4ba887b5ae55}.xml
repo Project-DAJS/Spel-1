@@ -384,9 +384,6 @@
 		</relationship>
 	</object>
 	<object class="ThreeEQEffect" id="{2233e7ac-6c11-44ae-9668-f2bd2a2e27de}">
-		<property name="lowGain">
-			<value>-0.5</value>
-		</property>
 		<property name="highGain">
 			<value>6.5</value>
 		</property>
@@ -427,7 +424,7 @@
 			<value>-2</value>
 		</property>
 		<property name="midGain">
-			<value>-19.5</value>
+			<value>-13</value>
 		</property>
 		<property name="highGain">
 			<value>-7.5</value>
