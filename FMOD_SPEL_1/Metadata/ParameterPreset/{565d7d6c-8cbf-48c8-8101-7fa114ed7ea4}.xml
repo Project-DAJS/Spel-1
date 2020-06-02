@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="ParameterPreset" id="{565d7d6c-8cbf-48c8-8101-7fa114ed7ea4}">
+		<property name="name">
+			<value>Idle (Start)</value>
+		</property>
+		<relationship name="folder">
+			<destination>{9c4feed5-e6f2-4e6d-885e-4ae0ffa8673a}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{7bc6aeab-4293-47ee-b60d-ce354cf13a08}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{7bc6aeab-4293-47ee-b60d-ce354cf13a08}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+		<property name="seekSpeed">
+			<value>0.050000004470348358</value>
+		</property>
+	</object>
+</objects>
