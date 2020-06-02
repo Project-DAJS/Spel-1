@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.00.00">
-	<object class="ParameterPreset" id="{565d7d6c-8cbf-48c8-8101-7fa114ed7ea4}">
+	<object class="ParameterPreset" id="{b9ce9f36-76e5-4b96-a11a-56d6ffecb89b}">
 		<property name="name">
-			<value>Idle</value>
+			<value>FadeOutOutdoor</value>
 		</property>
 		<relationship name="folder">
 			<destination>{9c4feed5-e6f2-4e6d-885e-4ae0ffa8673a}</destination>
 		</relationship>
 		<relationship name="parameter">
-			<destination>{7bc6aeab-4293-47ee-b60d-ce354cf13a08}</destination>
+			<destination>{672949ac-6237-476c-9790-e17aadd95742}</destination>
 		</relationship>
 	</object>
-	<object class="GameParameter" id="{7bc6aeab-4293-47ee-b60d-ce354cf13a08}">
+	<object class="GameParameter" id="{672949ac-6237-476c-9790-e17aadd95742}">
 		<property name="isGlobal">
 			<value>true</value>
 		</property>
 		<property name="initialValue">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<property name="seekSpeed">
-			<value>0.21000000834465027</value>
+			<value>0.080000005662441254</value>
 		</property>
 		<property name="isExposedRecursively">
 			<value>false</value>

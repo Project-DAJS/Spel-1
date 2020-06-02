@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.00.00">
 	<object class="ParameterPreset" id="{f1e4c29f-b2bb-4aec-8394-20a1bd502c8e}">
 		<property name="name">
-			<value>Puzzel</value>
+			<value>Puzzle4</value>
 		</property>
 		<relationship name="folder">
 			<destination>{9c4feed5-e6f2-4e6d-885e-4ae0ffa8673a}</destination>
@@ -12,11 +12,17 @@
 		</relationship>
 	</object>
 	<object class="GameParameter" id="{95b070a6-dd71-4906-a369-54da089a1aa6}">
+		<property name="isGlobal">
+			<value>true</value>
+		</property>
 		<property name="initialValue">
 			<value>0</value>
 		</property>
 		<property name="seekSpeed">
 			<value>0.1900000125169754</value>
+		</property>
+		<property name="isExposedRecursively">
+			<value>false</value>
 		</property>
 	</object>
 </objects>

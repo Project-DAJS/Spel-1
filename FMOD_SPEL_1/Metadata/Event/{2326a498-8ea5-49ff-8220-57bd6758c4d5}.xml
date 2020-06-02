@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{6e90d57c-8b09-4fac-b4bf-949d5fb7435d}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{bdc90de1-a309-4bce-815e-d0d1f5761b45}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{815437e7-626c-4843-9437-51b05931ec68}">
 		<relationship name="masterBus">
@@ -173,7 +176,7 @@
 			<value>52</value>
 		</property>
 		<property name="value">
-			<value>0</value>
+			<value>-10.5</value>
 		</property>
 		<property name="curveShape">
 			<value>-0.142198578</value>
