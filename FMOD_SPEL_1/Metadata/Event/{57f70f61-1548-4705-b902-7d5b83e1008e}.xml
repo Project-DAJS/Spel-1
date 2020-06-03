@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{e6f24779-70e3-4823-8421-eca62c832495}">
+		<property name="volume">
+			<value>-3.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{806e31ec-b0c7-495c-b1f8-f7278275367f}</destination>
 		</relationship>
@@ -92,6 +95,9 @@
 		<property name="length">
 			<value>0.85185941043083901</value>
 		</property>
+		<relationship name="fadeInCurve">
+			<destination>{215c482c-b56e-468c-992f-a8532976420e}</destination>
+		</relationship>
 		<relationship name="audioFile">
 			<destination>{f51126d6-821f-4bdd-8d98-cef75b2da44d}</destination>
 		</relationship>
@@ -120,12 +126,45 @@
 	</object>
 	<object class="MixerBusPanner" id="{abbcb519-d806-4763-b542-172d206b0938}" />
 	<object class="MixerBusFader" id="{223403fd-383f-4647-8219-bc1d9d2689d3}" />
+	<object class="FadeCurve" id="{215c482c-b56e-468c-992f-a8532976420e}">
+		<relationship name="startPoint">
+			<destination>{2d0ee574-dce5-4f5e-82b2-219aa445fc33}</destination>
+		</relationship>
+		<relationship name="endPoint">
+			<destination>{3c45bd8e-86ca-4230-ac4d-d172016d2bde}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{5750c42a-e627-40f5-9761-97c23da122e6}">
 		<relationship name="effects">
 			<destination>{66bfb08f-9e3d-4b89-90c0-8948dbc16f08}</destination>
+			<destination>{c4d5d498-05ce-4561-9206-7cb5632ba8fe}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{6f82c545-ae50-45b2-a7a5-9a887edc7a7f}" />
 	<object class="MixerBusFader" id="{c09962ca-4ba2-4b4b-afd6-45a86e06e7ec}" />
+	<object class="AutomationPoint" id="{2d0ee574-dce5-4f5e-82b2-219aa445fc33}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="value">
+			<value>0</value>
+		</property>
+		<property name="curveShape">
+			<value>-0.2547189</value>
+		</property>
+	</object>
+	<object class="AutomationPoint" id="{3c45bd8e-86ca-4230-ac4d-d172016d2bde}">
+		<property name="position">
+			<value>0.01</value>
+		</property>
+		<property name="value">
+			<value>1</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{66bfb08f-9e3d-4b89-90c0-8948dbc16f08}" />
+	<object class="PitchShifterEffect" id="{c4d5d498-05ce-4561-9206-7cb5632ba8fe}">
+		<property name="pitch">
+			<value>0.970000088</value>
+		</property>
+	</object>
 </objects>
