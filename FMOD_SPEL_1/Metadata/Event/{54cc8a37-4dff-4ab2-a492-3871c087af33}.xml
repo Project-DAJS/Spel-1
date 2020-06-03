@@ -383,6 +383,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{67eb4741-58cf-42fd-86a6-493ec6212105}">
+		<property name="volume">
+			<value>-3.5</value>
+		</property>
 		<property name="name">
 			<value>Scatter Trees</value>
 		</property>

@@ -120,6 +120,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{551bb6c1-f57a-4167-a8ff-71cb48195c11}">
+		<property name="volume">
+			<value>-7.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{e6023065-e5ef-4e55-a4ee-dbfee838ba65}</destination>
 		</relationship>
@@ -284,7 +287,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{b756139f-befe-4614-80be-8a311fe11ce1}">
 		<property name="volume">
-			<value>3.5</value>
+			<value>-5</value>
 		</property>
 		<property name="name">
 			<value>Squeaks</value>
